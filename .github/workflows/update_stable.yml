@@ -13,24 +13,32 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: stable-iptv-main
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 25
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
       - name: Strict verify international IPTV streams
         run: python build_world_stable.py
 
-      - name: Commit stable playlists
+      - name: Commit and push stable playlists
         shell: bash
         run: |
+          set -e
+
           git add world_stable.m3u all_stable.m3u
 
           if git diff --cached --quiet; then
@@ -42,4 +50,21 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git commit -m "chore: refresh strict verified IPTV"
-          git push
+
+          for attempt in 1 2 3; do
+            echo "Push attempt $attempt/3"
+
+            git fetch origin main
+            git rebase origin/main
+
+            if git push origin HEAD:main; then
+              echo "Push succeeded."
+              exit 0
+            fi
+
+            echo "Push failed; retrying in 5 seconds..."
+            sleep 5
+          done
+
+          echo "Push failed after 3 attempts."
+          exit 1
