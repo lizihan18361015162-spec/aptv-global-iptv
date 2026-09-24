@@ -1,4 +1,4 @@
-name: Update China IPTV 500
+name: Update China IPTV
 
 on:
   workflow_dispatch:
@@ -18,21 +18,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Build playlist
+      - name: Build playlists
         run: python build.py
 
-      - name: Commit playlist
+      - name: Commit playlists
         shell: bash
         run: |
-          git add china500.m3u
+          git add china_stable.m3u china500.m3u
 
           if git diff --cached --quiet; then
             echo "No playlist changes."
@@ -42,5 +40,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git commit -m "chore: refresh IPTV playlist"
+          git commit -m "chore: refresh IPTV playlists"
           git push
