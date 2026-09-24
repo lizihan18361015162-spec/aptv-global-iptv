@@ -8,37 +8,77 @@ on:
     branches: [main]
     paths:
       - "build.py"
+      - "fix_cctv.py"
       - ".github/workflows/update.yml"
 
 permissions:
   contents: write
 
+concurrency:
+  group: iptv-main
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
-      - name: Build playlists
-        run: python build.py
-
-      - name: Commit playlists
+      - name: Install FFmpeg
         shell: bash
         run: |
+          if ! command -v ffprobe >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install -y ffmpeg
+          fi
+          ffprobe -version | head -n 1
+          ffmpeg -version | head -n 1
+
+      - name: Build China playlists
+        run: python build.py
+
+      - name: Verify CCTV video and repair black-screen streams
+        run: python fix_cctv.py
+
+      - name: Commit and push playlists
+        shell: bash
+        run: |
+          set -e
+
           git add china_stable.m3u china500.m3u
 
           if git diff --cached --quiet; then
-            echo "No playlist changes."
+            echo "No China playlist changes."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git commit -m "chore: refresh IPTV playlists"
-          git push
+          git commit -m "chore: refresh decodable CCTV streams"
+
+          for attempt in 1 2 3; do
+            echo "Push attempt $attempt/3"
+
+            git fetch origin main
+            git rebase origin/main
+
+            if git push origin HEAD:main; then
+              echo "Push succeeded."
+              exit 0
+            fi
+
+            echo "Push failed; retrying in 5 seconds..."
+            sleep 5
+          done
+
+          echo "Push failed after 3 attempts."
+          exit 1
