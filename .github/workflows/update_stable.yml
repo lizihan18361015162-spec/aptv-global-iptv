@@ -16,7 +16,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
 
     steps:
       - uses: actions/checkout@v4
@@ -25,13 +25,13 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Verify and build stable international playlists
+      - name: Strict verify international IPTV streams
         run: python build_world_stable.py
 
       - name: Commit stable playlists
         shell: bash
         run: |
-          git add world_stable.m3u all_stable.m3u || true
+          git add world_stable.m3u all_stable.m3u
 
           if git diff --cached --quiet; then
             echo "No stable playlist changes."
@@ -41,5 +41,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git commit -m "chore: refresh verified stable IPTV"
+          git commit -m "chore: refresh strict verified IPTV"
           git push
