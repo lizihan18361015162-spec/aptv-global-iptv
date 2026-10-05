@@ -1,15 +1,15 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml"
 #PLAYLIST: 中国电视稳定版｜去重｜分类｜低延迟优先
-#EXTINF:-1 tvg-id="CCTV1.cn@SD" tvg-name="CCTV-1" tvg-logo="https://i.imgur.com/TpA3cUl.png" group-title="01·央视频道" ,CCTV-1
-http://74.91.26.218:82/live/cctv1hd.m3u8
+#EXTINF:-1 tvg-name="CCTV-1" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV1.png" group-title="01·央视频道" ,CCTV-1
+http://120.40.39.246:352/newlive/live/hls/1/live.m3u8
 #EXTINF:-1 tvg-name="CCTV-2" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV2.png" group-title="01·央视频道" ,CCTV-2
 http://107.150.60.122/live/cctv2hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-3" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV3.png" group-title="01·央视频道" ,CCTV-3
 http://74.91.26.218:82/live/cctv3hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-4" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV4.png" group-title="01·央视频道" ,CCTV-4
 http://107.150.60.122/live/cctv4hd.m3u8
-#EXTINF:-1 tvg-id="CCTV-5" tvg-name="CCTV-5" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-5.png" group-title="01·央视频道" ,CCTV-5
-http://107.150.60.122/live/cctv5hd.m3u8
+#EXTINF:-1 tvg-name="CCTV-5" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5.png" group-title="01·央视频道" ,CCTV-5
+http://101.66.195.51:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="CCTV-5+" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5+.png" group-title="01·央视频道" ,CCTV-5+
 http://124.228.160.112:9901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="CCTV6.cn@HD" tvg-name="CCTV-6" group-title="01·央视频道" ,CCTV-6
@@ -30,8 +30,8 @@ http://38.75.136.137:98/gslb/dsdqbv/cctv12hd.m3u8?auth=test20251009
 https://event.pull.hebtv.com/jishi/cp1.m3u8
 #EXTINF:-1 tvg-name="CCTV-14" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV14.png" group-title="01·央视频道" ,CCTV-14
 https://event.pull.hebtv.com/jishi/cp2.m3u8
-#EXTINF:-1 tvg-id="CCTV-15" tvg-name="CCTV-15" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-15.png" group-title="01·央视频道" ,CCTV-15
-http://204.12.221.218:8181/3m1080p/cctv15.m3u8
+#EXTINF:-1 tvg-name="CCTV-15" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV15.png" group-title="01·央视频道" ,CCTV-15
+http://101.66.194.121:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="CCTV-16" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV16.png" group-title="01·央视频道" ,CCTV-16
 http://173.208.234.146/live/cctv16.m3u8
 #EXTINF:-1 tvg-id="CCTV17.cn@HD" tvg-name="CCTV-17" group-title="01·央视频道" ,CCTV-17

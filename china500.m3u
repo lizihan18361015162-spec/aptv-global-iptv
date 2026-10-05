@@ -1,15 +1,15 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml"
 #PLAYLIST: 中国电视500台扩展版｜去重｜分类｜自动更新
-#EXTINF:-1 tvg-id="CCTV1.cn@SD" tvg-name="CCTV-1" tvg-logo="https://i.imgur.com/TpA3cUl.png" group-title="01·央视频道" ,CCTV-1
-http://74.91.26.218:82/live/cctv1hd.m3u8
+#EXTINF:-1 tvg-name="CCTV-1" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV1.png" group-title="01·央视频道" ,CCTV-1
+http://120.40.39.246:352/newlive/live/hls/1/live.m3u8
 #EXTINF:-1 tvg-name="CCTV-2" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV2.png" group-title="01·央视频道" ,CCTV-2
 http://107.150.60.122/live/cctv2hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-3" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV3.png" group-title="01·央视频道" ,CCTV-3
 http://74.91.26.218:82/live/cctv3hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-4" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV4.png" group-title="01·央视频道" ,CCTV-4
 http://107.150.60.122/live/cctv4hd.m3u8
-#EXTINF:-1 tvg-id="CCTV-5" tvg-name="CCTV-5" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-5.png" group-title="01·央视频道" ,CCTV-5
-http://107.150.60.122/live/cctv5hd.m3u8
+#EXTINF:-1 tvg-name="CCTV-5" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5.png" group-title="01·央视频道" ,CCTV-5
+http://101.66.195.51:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="CCTV-5+" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5+.png" group-title="01·央视频道" ,CCTV-5+
 http://124.228.160.112:9901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="CCTV6.cn@HD" tvg-name="CCTV-6" group-title="01·央视频道" ,CCTV-6
@@ -30,8 +30,8 @@ http://38.75.136.137:98/gslb/dsdqbv/cctv12hd.m3u8?auth=test20251009
 https://event.pull.hebtv.com/jishi/cp1.m3u8
 #EXTINF:-1 tvg-name="CCTV-14" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV14.png" group-title="01·央视频道" ,CCTV-14
 https://event.pull.hebtv.com/jishi/cp2.m3u8
-#EXTINF:-1 tvg-id="CCTV-15" tvg-name="CCTV-15" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-15.png" group-title="01·央视频道" ,CCTV-15
-http://204.12.221.218:8181/3m1080p/cctv15.m3u8
+#EXTINF:-1 tvg-name="CCTV-15" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV15.png" group-title="01·央视频道" ,CCTV-15
+http://101.66.194.121:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="CCTV-16" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV16.png" group-title="01·央视频道" ,CCTV-16
 http://173.208.234.146/live/cctv16.m3u8
 #EXTINF:-1 tvg-id="CCTV17.cn@HD" tvg-name="CCTV-17" group-title="01·央视频道" ,CCTV-17
@@ -42,16 +42,14 @@ http://go.bkpcp.top/mg/bjws
 http://ivi.bupt.edu.cn/hls/btv1.m3u8
 #EXTINF:-1 tvg-name="[BD]东南卫视" tvg-logo="https://epg.pw/media/images/channel/2025/01/28/large/20250128055858539901_84.jpg" group-title="02·卫视频道" ,[BD]东南卫视
 https://stream1.freetv.fun/3ad6599415990b0f15bec3d681fb934f53a2f82aac7584375237a83573efe5c7.m3u8
-#EXTINF:-1 tvg-name="[BD]东方卫视" tvg-logo="https://epg.pw/media/images/channel/2023/06/05/large/20230605010227137581_33.jpg" group-title="02·卫视频道" ,[BD]东方卫视
-https://stream1.freetv.fun/83c3a916916d31715425b6e333fa1bc61dd7401ec2e546e2e62e0dacdeac543a.m3u8
-#EXTINF:-1 tvg-name="[BD]内蒙古卫视" tvg-logo="https://epg.pw/media/images/channel/2022/05/31/large/20220531160914023715_85.jpg" group-title="02·卫视频道" ,[BD]内蒙古卫视
-https://stream1.freetv.fun/1e5dc1f802d7775ea9cde7b7b874b914365797c6718c5e95448aa26648e136e6.m3u8
 #EXTINF:-1 tvg-name="[BD]北京卫视" tvg-logo="https://epg.pw/media/images/channel/2024/10/29/large/20241029101351559578_45.png" group-title="02·卫视频道" ,[BD]北京卫视
 https://stream1.freetv.fun/81a83aae5e098095fc514c5ab802f00c5a651b3846694b4ad69e3fb649ed270a.m3u8
 #EXTINF:-1 tvg-name="[BD]吉林卫视" tvg-logo="https://epg.pw/media/images/channel/2024/07/28/large/20240728163659540434_96.png" group-title="02·卫视频道" ,[BD]吉林卫视
 https://stream1.freetv.fun/657b3cc8f2106d0e0b52d0bc7f0e15db544b37b3e86bf5f486f351b9db61fa2e.m3u8
 #EXTINF:-1 tvg-name="[BD]天津卫视" tvg-logo="https://epg.pw/media/images/channel/2026/02/26/large/20260226025419139967_11.jpg" group-title="02·卫视频道" ,[BD]天津卫视
 https://stream1.freetv.fun/12bd529a4a4c275fc29906844719e95cac5107e284e27b33671bcf2f3c0a0ee6.m3u8
+#EXTINF:-1 tvg-name="[BD]宁夏卫视" tvg-logo="https://epg.pw/media/images/channel/2022/05/31/large/20220531153504056322_25.jpg" group-title="02·卫视频道" ,[BD]宁夏卫视
+https://stream1.freetv.fun/c3a22585493b5fbb62ab4b873bbf60ce767e779781bf178117fcf0918e2de201.m3u8
 #EXTINF:-1 tvg-name="[BD]安多卫视" tvg-logo="https://epg.pw/media/images/channel/2022/01/15/large/20220115214146158986_19.png" group-title="02·卫视频道" ,[BD]安多卫视
 https://stream1.freetv.fun/290a71e47606fa713caa0f79a0812e332e24e5ec6d51610020d3031c34fb2857.m3u8
 #EXTINF:-1 tvg-name="[BD]安徽卫视" tvg-logo="https://epg.pw/media/images/channel/2023/07/19/large/20230719113027191823_22.jpg" group-title="02·卫视频道" ,[BD]安徽卫视
@@ -68,18 +66,20 @@ https://stream1.freetv.fun/d2ea3a364fa453b29060ebccb5a06a1941755859c0182ab0f0714
 https://stream1.freetv.fun/ff50600dd45b1b1656f2f7535c04f361a6e8c33606e19dbc9b0316bd173f9408.m3u8
 #EXTINF:-1 tvg-name="[BD]江苏卫视" tvg-logo="https://epg.pw/media/images/channel/2022/05/30/large/20220530225651709500_84.jpg" group-title="02·卫视频道" ,[BD]江苏卫视
 https://stream1.freetv.fun/4f24c45e978db16f03f9526a99b66684f76c164081454f9fb06fb75f3909339d.m3u8
+#EXTINF:-1 tvg-name="[BD]河北卫视" tvg-logo="https://epg.pw/media/images/channel/2022/05/31/large/20220531145616881844_72.jpg" group-title="02·卫视频道" ,[BD]河北卫视
+https://stream1.freetv.fun/b78d3d80fa3291de20123369c620f0a61a40b2c5857fcfc84da69de77f4d887b.m3u8
 #EXTINF:-1 tvg-name="[BD]浙江卫视" tvg-logo="https://epg.pw/media/images/channel/2024/03/11/large/20240311112431672505_47.png" group-title="02·卫视频道" ,[BD]浙江卫视
 https://stream1.freetv.fun/7f280c90c0c7647b6816a25c4b4ec1732c7d84bd85d08cdd5f60489b14d7e33f.m3u8
 #EXTINF:-1 tvg-name="[BD]海峡卫视" tvg-logo="https://epg.pw/media/images/channel/2025/01/28/large/20250128060839855238_81.jpg" group-title="02·卫视频道" ,[BD]海峡卫视
 https://stream1.freetv.fun/aac46a5aacdf68f29a5a52c4fa291258a7e225175b6872d6d4dbc7d8969df603.m3u8
 #EXTINF:-1 tvg-name="[BD]深圳卫视" tvg-logo="https://epg.pw/media/images/channel/2024/03/11/large/20240311112310613998_63.png" group-title="02·卫视频道" ,[BD]深圳卫视
 https://stream1.freetv.fun/812cad00d672662e36b8a4a3d967ab826c0d8f4a3fd02ee64389b0bdc116bd43.m3u8
+#EXTINF:-1 tvg-name="[BD]湖北卫视" tvg-logo="https://epg.pw/media/images/channel/2017/01/08/large/20170108220858481970_23.jpg" group-title="02·卫视频道" ,[BD]湖北卫视
+https://stream1.freetv.fun/7278e895e1e512f548f3fd2c2e503a83f6946006f1aba27c986e95fd5960f592.m3u8
+#EXTINF:-1 tvg-name="[BD]湖南卫视" tvg-logo="https://epg.pw/media/images/channel/2024/03/11/large/20240311111749846409_90.png" group-title="02·卫视频道" ,[BD]湖南卫视
+https://stream1.freetv.fun/68232f771e5e64ddcaf9a038ebb1aa747c384d46ab1f33fa5be113e6d0c6d298.m3u8
 #EXTINF:-1 tvg-name="[BD]西藏卫视" tvg-logo="https://epg.pw/media/images/channel/2022/05/31/large/20220531231110733151_44.jpg" group-title="02·卫视频道" ,[BD]西藏卫视
 https://stream1.freetv.fun/dd47ba03fe77064ea4e0978637231bce94e7554c9f8f6a020195311829752aed.m3u8
-#EXTINF:-1 tvg-name="[BD]重庆卫视" tvg-logo="https://epg.pw/media/images/channel/2024/03/11/large/20240311111314058451_54.png" group-title="02·卫视频道" ,[BD]重庆卫视
-https://stream1.freetv.fun/db87bc979d1c5004a4b6403aa42c8cc09da751ecd2f1cf27806cf13032ea15e4.m3u8
-#EXTINF:-1 tvg-name="[BD]黑龙江卫视" tvg-logo="https://epg.pw/media/images/channel/2022/05/31/large/20220531154335673922_21.jpg" group-title="02·卫视频道" ,[BD]黑龙江卫视
-https://stream1.freetv.fun/9d7a745d71fa16ea6b1a0edce79f7b842e59487519e7a76bcef5b0c7a87a3f24.m3u8
 #EXTINF:-1 tvg-name="三沙卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/三沙卫视.png" group-title="02·卫视频道" ,三沙卫视
 http://38.75.136.137:98/gslb/dsdqpub/ssws.m3u8?auth=testpub
 #EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东南卫视.png" group-title="02·卫视频道" ,东南卫视
