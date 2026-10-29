@@ -53,7 +53,7 @@ https://stream1.freetv.fun/657b3cc8f2106d0e0b52d0bc7f0e15db544b37b3e86bf5f486f35
 #EXTINF:-1 tvg-name="[BD]四川卫视" tvg-logo="https://epg.pw/media/images/channel/2022/05/28/large/20220528220452110808_30.jpg" group-title="02·卫视频道" ,[BD]四川卫视
 https://stream1.freetv.fun/4d012cc6d0cf9ec1b6101aa7351bb3b038d5a231ef437f62ea6908ff02667ffb.m3u8
 #EXTINF:-1 tvg-name="[BD]天津卫视" tvg-logo="https://epg.pw/media/images/channel/2026/02/26/large/20260226025419139967_11.jpg" group-title="02·卫视频道" ,[BD]天津卫视
-https://stream1.freetv.fun/d71d3950e729c148bf850a61f908bb3d393fe2d4d246dabfc0d7e63221b05bc7.m3u8
+https://stream1.freetv.fun/463ce56e18ad6622b86e0f74226f34eb71672dd9d4f641b9d54ad5217eb2febf.m3u8
 #EXTINF:-1 tvg-name="[BD]安多卫视" tvg-logo="https://epg.pw/media/images/channel/2022/01/15/large/20220115214146158986_19.png" group-title="02·卫视频道" ,[BD]安多卫视
 https://stream1.freetv.fun/290a71e47606fa713caa0f79a0812e332e24e5ec6d51610020d3031c34fb2857.m3u8
 #EXTINF:-1 tvg-name="[BD]安徽卫视" tvg-logo="https://epg.pw/media/images/channel/2023/07/19/large/20230719113027191823_22.jpg" group-title="02·卫视频道" ,[BD]安徽卫视
@@ -64,14 +64,12 @@ https://stream1.freetv.fun/d8e3366b8925df7647771179db5b057cfc7c2113382dfff9027cb
 https://stream1.freetv.fun/2f538e8c3c3dc60b99799fb3331f5f05b5a9c3c574544b4178a57a7de78f6884.m3u8
 #EXTINF:-1 tvg-name="[BD]广东卫视高清" tvg-logo="https://epg.pw/media/images/channel/2023/12/26/large/20231226204115695252_96.png" group-title="02·卫视频道" ,[BD]广东卫视高清
 https://stream1.freetv.fun/1f3a9d078faf4fcdd27d3a86b95f13bcad63b6a82f9497c478cb30b1efb76be3.ctv
-#EXTINF:-1 tvg-name="[BD]广西卫视" tvg-logo="https://epg.pw/media/images/channel/2025/01/28/large/20250128055652623222_35.jpg" group-title="02·卫视频道" ,[BD]广西卫视
-https://stream1.freetv.fun/769f22146852e78af58e6a25a46ca80a48e35ccb700ac75e8ab42a72473ba60c.m3u8
 #EXTINF:-1 tvg-name="[BD]延边卫视" tvg-logo="https://epg.pw/media/images/channel/2022/05/31/large/20220531161239615102_64.jpg" group-title="02·卫视频道" ,[BD]延边卫视
 https://stream1.freetv.fun/d2ea3a364fa453b29060ebccb5a06a1941755859c0182ab0f071473c08738fc2.ctv
 #EXTINF:-1 tvg-name="[BD]新疆卫视" tvg-logo="https://epg.pw/media/images/channel/2022/05/31/large/20220531160954230977_59.jpg" group-title="02·卫视频道" ,[BD]新疆卫视
 https://stream1.freetv.fun/ff50600dd45b1b1656f2f7535c04f361a6e8c33606e19dbc9b0316bd173f9408.m3u8
 #EXTINF:-1 tvg-name="[BD]河北卫视" tvg-logo="https://epg.pw/media/images/channel/2022/05/31/large/20220531145616881844_72.jpg" group-title="02·卫视频道" ,[BD]河北卫视
-https://stream1.freetv.fun/b78d3d80fa3291de20123369c620f0a61a40b2c5857fcfc84da69de77f4d887b.m3u8
+https://stream1.freetv.fun/e61c0d8b6667111dbf351f301877dc65ad441d53a332ed7e6e1cc096122401aa.m3u8
 #EXTINF:-1 tvg-name="[BD]河南卫视" tvg-logo="https://epg.pw/media/images/channel/2022/05/30/large/20220530233814283449_10.jpg" group-title="02·卫视频道" ,[BD]河南卫视
 https://stream1.freetv.fun/7331faf4032e9de329e2c041cd9fa6f95fad0683ef1937a7bbbb76322856b9eb.m3u8
 #EXTINF:-1 tvg-name="[BD]浙江卫视" tvg-logo="https://epg.pw/media/images/channel/2024/03/11/large/20240311112431672505_47.png" group-title="02·卫视频道" ,[BD]浙江卫视
@@ -82,12 +80,16 @@ https://stream1.freetv.fun/4976d4d4adc40dea6818cd00c88f573f89241aa55da491202c438
 https://stream1.freetv.fun/aac46a5aacdf68f29a5a52c4fa291258a7e225175b6872d6d4dbc7d8969df603.m3u8
 #EXTINF:-1 tvg-name="[BD]深圳卫视" tvg-logo="https://epg.pw/media/images/channel/2024/03/11/large/20240311112310613998_63.png" group-title="02·卫视频道" ,[BD]深圳卫视
 https://stream1.freetv.fun/89590fba13fe06fa83f4c4bc1c821266ba94fcec439b5ce16341cdf213b0cc43.m3u8
+#EXTINF:-1 tvg-name="[BD]湖北卫视" tvg-logo="https://epg.pw/media/images/channel/2017/01/08/large/20170108220858481970_23.jpg" group-title="02·卫视频道" ,[BD]湖北卫视
+https://stream1.freetv.fun/2cadff68f8e06b03d10536121b2764ac658a8cb451d1901107c2039ac49a6757.m3u8
 #EXTINF:-1 tvg-name="[BD]湖南卫视" tvg-logo="https://epg.pw/media/images/channel/2024/03/11/large/20240311111749846409_90.png" group-title="02·卫视频道" ,[BD]湖南卫视
 https://stream1.freetv.fun/9226420e08f33ac94185dfb00622d865e225c262cffc9f79765db311c08a4023.m3u8
 #EXTINF:-1 tvg-name="[BD]甘肃卫视" tvg-logo="https://epg.pw/media/images/channel/2022/05/31/large/20220531224357857126_28.jpg" group-title="02·卫视频道" ,[BD]甘肃卫视
 https://stream1.freetv.fun/61f3c51f5803f37a6ea081e3e5d94df955fd2bcc591583685545052de4ffded7.m3u8
 #EXTINF:-1 tvg-name="[BD]贵州卫视" tvg-logo="https://epg.pw/media/images/channel/2022/05/31/large/20220531144236171971_20.jpg" group-title="02·卫视频道" ,[BD]贵州卫视
-https://stream1.freetv.fun/4246e947623686b0725145a4651f8a8776c77515d00eed1add3f5e36f8a7a56e.m3u8
+https://stream1.freetv.fun/8e8407a82f2d395cd962851edf2b48ecffcec47128680e818616c5e864b06d77.m3u8
+#EXTINF:-1 tvg-name="[BD]辽宁卫视" tvg-logo="https://epg.pw/media/images/channel/2025/01/28/large/20250128060733782674_48.jpg" group-title="02·卫视频道" ,[BD]辽宁卫视
+https://stream1.freetv.fun/c386d9c7cbbd54acd5c62d1e68d3b89f76f9f7a926691e4ad69397091fe9692c.m3u8
 #EXTINF:-1 tvg-name="[BD]黑龙江卫视" tvg-logo="https://epg.pw/media/images/channel/2022/05/31/large/20220531154335673922_21.jpg" group-title="02·卫视频道" ,[BD]黑龙江卫视
 https://stream1.freetv.fun/cfa2ed9d4f96d20f3dd2eb920e17de8ecd8482cfff2328d8cfdcaba050a03a4b.m3u8
 #EXTINF:-1 tvg-name="三沙卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/三沙卫视.png" group-title="02·卫视频道" ,三沙卫视
@@ -980,8 +982,6 @@ http://l.cztvcloud.com/channels/lantian/SXdongyang1/720p.m3u8
 http://39.134.19.68/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8
 #EXTINF:-1 tvg-id="南宁影视娱乐" tvg-name="南宁影视娱乐" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南宁影视娱乐.png" group-title="06·影视剧场" ,南宁影视娱乐
 http://hls.nntv.cn/nnlive/YSYL_244.m3u8
-#EXTINF:-1 tvg-id="安徽影视" tvg-name="安徽影视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/安徽影视.png" group-title="06·影视剧场" ,安徽影视
-https://stream1.freetv.fun/an-hui-ying-shi-14.m3u8
 #EXTINF:-1 tvg-name="金鹰卡通" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/金鹰卡通.png" group-title="07·少儿动漫" ,金鹰卡通
 http://101.66.195.232:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/凤凰中文.png" group-title="09·港澳台" ,凤凰中文
