@@ -8,18 +8,18 @@ http://74.91.26.218:82/live/cctv2hd.m3u8
 http://120.40.39.246:352/newlive/live/hls/3/live.m3u8
 #EXTINF:-1 tvg-name="CCTV-4" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV4.png" group-title="01·央视频道" ,CCTV-4
 http://120.198.95.220:9901/tsfile/live/1018_1.m3u8?key=txiptv&playlive=1&down=1
-#EXTINF:-1 tvg-name="CCTV-5" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5.png" group-title="01·央视频道" ,CCTV-5
-http://120.198.95.220:9901/tsfile/live/1019_1.m3u8?key=txiptv&playlive=1&down=1
+#EXTINF:-1 tvg-id="CCTV-5" tvg-name="CCTV-5" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-5.png" group-title="01·央视频道" ,CCTV-5
+http://107.150.60.122/live/cctv5hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-5+" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5+.png" group-title="01·央视频道" ,CCTV-5+
-http://120.198.95.220:9901/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&down=1
-#EXTINF:-1 tvg-name="CCTV-6" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV6.png" group-title="01·央视频道" ,CCTV-6
-http://198.204.228.26/live/cctv6hd.m3u8
+http://119.125.131.239:9901/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&down=1
+#EXTINF:-1 tvg-id="CCTV-6" tvg-name="CCTV-6" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-6.png" group-title="01·央视频道" ,CCTV-6
+http://74.91.26.218:82/live/cctv6hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-7" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV7.png" group-title="01·央视频道" ,CCTV-7
 http://120.198.95.220:9901/tsfile/live/1022_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="CCTV8.cn@SD" tvg-name="CCTV-8" group-title="01·央视频道" ,CCTV-8
 http://74.91.26.218:82/live/cctv8hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-9" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV9.png" group-title="01·央视频道" ,CCTV-9
-http://120.198.95.220:9901/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&down=1
+http://119.125.131.239:9901/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-name="CCTV-10" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV10.png" group-title="01·央视频道" ,CCTV-10
 http://101.66.195.232:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="CCTV-11" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV11.png" group-title="01·央视频道" ,CCTV-11
@@ -978,6 +978,8 @@ http://l.cztvcloud.com/channels/lantian/SXdongyang1/720p.m3u8
 http://39.134.19.68/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8
 #EXTINF:-1 tvg-id="南宁影视娱乐" tvg-name="南宁影视娱乐" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南宁影视娱乐.png" group-title="06·影视剧场" ,南宁影视娱乐
 http://hls.nntv.cn/nnlive/YSYL_244.m3u8
+#EXTINF:-1 tvg-id="安徽影视" tvg-name="安徽影视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/安徽影视.png" group-title="06·影视剧场" ,安徽影视
+https://stream1.freetv.fun/an-hui-ying-shi-14.m3u8
 #EXTINF:-1 tvg-name="金鹰卡通" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/金鹰卡通.png" group-title="07·少儿动漫" ,金鹰卡通
 http://101.66.194.29:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/凤凰中文.png" group-title="09·港澳台" ,凤凰中文
