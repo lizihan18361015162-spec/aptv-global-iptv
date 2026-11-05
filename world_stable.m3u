@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml,https://epgshare01.online/epgshare01/epg_ripper_JP1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_JP2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_HK1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_KR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz"
 #PLAYLIST: 海外严格稳定版｜港澳台加强｜实际视频分片验证
-#UPDATED: 2026-11-05 06:53 UTC
+#UPDATED: 2026-11-05 20:00 UTC
 #EXTINF:-1 tvg-id="CGNTVJapan.jp@SD" tvg-name="CGNTV Japan" group-title="13·日本频道" ,CGNTV Japan
 #EXTVLCOPT:http-referrer=http://japan.cgntv.net/HD_player_jp.html
 https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8
@@ -25,8 +25,6 @@ https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8
 https://ntv5.mov3.co/hls/ntv.m3u8
 #EXTINF:-1 tvg-id="QVC.jp@SD" tvg-name="QVC" group-title="13·日本频道" ,QVC
 https://d1flvb4iqlercm.cloudfront.net/live/live_1080p_2nd.m3u8
-#EXTINF:-1 tvg-name="TOKYO MX チャンネル" tvg-logo="https://channel.rakuten.co.jp/service/img/logo/chlogo-with-number/108_mx.png" group-title="13·日本频道" ,TOKYO MX チャンネル
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-tokyomx-cmaf-rakutenjp/playlist.m3u8
 #EXTINF:-1 tvg-id="TVTokyo.jp@JOTXDTV" tvg-name="TV Tokyo" group-title="13·日本频道" ,TV Tokyo
 #EXTVLCOPT:http-referrer=https://mov3.co/
 https://tvtokyo.mov3.co/hls/tvtokyo.m3u8
@@ -50,8 +48,6 @@ https://streamipcfapp.akamaized.net/live/_definst_/live_720/key_b1500.m3u8
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 #EXTINF:-1 tvg-id="WXTV.tw@SD" tvg-name="唯心電視" group-title="17·台湾频道" ,唯心電視
 https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
-#EXTINF:-1 tvg-id="AsianDrama.hk@SD" tvg-name="Asian Drama" group-title="18·香港频道" ,Asian Drama
-http://103.172.187.30:12000/stream/mytv/null-11/master.m3u8
 #EXTINF:-1 tvg-id="BloombergTV.us@Asia" tvg-name="Bloomberg TV Asia" group-title="18·香港频道" ,Bloomberg TV Asia
 https://bloomberg.com/media-manifest/streams/asia.m3u8
 #EXTINF:-1 tvg-id="BloombergTV.us@AsiaLiveEvent" tvg-name="Bloomberg TV Asia Live Event" group-title="18·香港频道" ,Bloomberg TV Asia Live Event
@@ -71,7 +67,7 @@ https://vod2.abn.co.kr/IPHONE/abn.m3u8
 #EXTINF:-1 tvg-id="ArirangRadio.kr@SD" tvg-name="Arirang Radio" group-title="20·韩国频道" ,Arirang Radio
 https://amdlive-ch02-ctnd-com.akamaized.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ArirangTV.kr@SD" tvg-name="Arirang TV" group-title="20·韩国频道" ,Arirang TV
-https://amdlive-ch02-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ArirangUN.kr@SD" tvg-name="Arirang TV UN" group-title="20·韩国频道" ,Arirang TV UN
 https://amdlive-ch02-ctnd-com.akamaized.net/arirang_2ch/smil:arirang_2ch.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="BBSTV.kr@SD" tvg-name="BBS Buddhist Broadcasting" group-title="20·韩国频道" ,BBS Buddhist Broadcasting
@@ -224,17 +220,17 @@ https://5aafcc5de91f1.streamlock.net/almagd.tv/almagd.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AmazingFactsTV.us@SD" tvg-name="Amazing Facts TV" group-title="21·美国频道" ,Amazing Facts TV
 https://hlspackager.akamaized.net/live/DB/AMAZING_FACTS/HLS/AMAZING_FACTS.m3u8
 #EXTINF:-1 tvg-id="AMCLatinAmerica.us@Panregional" tvg-name="AMC Latin America" group-title="21·美国频道" ,AMC Latin America
-http://138.121.15.230:9002/AMC/index.m3u8
+http://15.204.246.24:8080/AMCHD/index.m3u8
 #EXTINF:-1 tvg-id="AMCLatinAmerica.us@Brazil" tvg-name="AMC Latin America Brazil" group-title="21·美国频道" ,AMC Latin America Brazil
 http://170.83.49.66:8083/AMCHD/index.m3u8
 #EXTINF:-1 tvg-id="AMCSeriesLatinAmerica.us@Panregional" tvg-name="AMC Series Latin America" group-title="21·美国频道" ,AMC Series Latin America
-https://streaming.onnethn.com/AMC/playlist.m3u8
-#EXTINF:-1 tvg-id="AmericaTeVe.us" tvg-name="America TeVe" tvg-logo="https://pbs.twimg.com/profile_images/2067373416173260801/9cUCY5wX_200x200.jpg" group-title="21·美国频道" ,America TeVe
-https://live.gideo.video/americateve2/master.m3u8
+http://45.171.64.30:6060/play/a005/index.m3u8
 #EXTINF:-1 tvg-id="AmericasVoice.us" tvg-name="America's Voice" tvg-logo="https://graph.facebook.com/RealAmericasVoice/picture?width=200&height=200" group-title="21·美国频道" ,America's Voice
 https://d2jiqiw4g5lj5k.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/AmericasVoiceChannel-prod/AVSamsung/AVSamsung.m3u8
 #EXTINF:-1 tvg-id="AmericanHeroesChannel.us@SD" tvg-name="American Heroes Channel" group-title="21·美国频道" ,American Heroes Channel
 http://23.237.104.106:8080/USA_AMERICAN_HEROES/index.m3u8
+#EXTINF:-1 tvg-id="AmericanHorrors.us@SD" tvg-name="American Horrors" group-title="21·美国频道" ,American Horrors
+http://107.167.7.162:8081/playlist/amhor/playlist.m3u8
 #EXTINF:-1 tvg-id="AmericanNinjaWarrior.us@SD" tvg-name="American Ninja Warrior" group-title="21·美国频道" ,American Ninja Warrior
 https://d4whmvwm0rdvi.cloudfront.net/10007/99951318/hls/master.m3u8?ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads._fw_content_category=&ads._fw_content_genre=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_coppa=0&ads._fw_deviceMake=GitHubAction&ads._fw_deviceType=3-Connected_TV&ads._fw_device_model=PythonScript&ads._fw_did=a5090924-15b1-4b7f-b6cd-2f06e2ba51e1&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_vcid2=512116:a5090924-15b1-4b7f-b6cd-2f06e2ba51e1&ads.afid=405342864&ads.appName=XumoPlay&ads.appVersion=1.0.0&ads.asnw=169843&ads.channelId=99951318&ads.csid=xumo_web_NBCUAmericanNinjaWarrior_ssai_cro&ads.sfid=19647852&ads.xumo_channelId=99951318&ads.xumo_contentId=4063&ads.xumo_contentName=NBCUAmericanNinjaWarrior&ads.xumo_providerId=4063&ads.xumo_providerName=NBCUAmericanNinjaWarrior
 #EXTINF:-1 tvg-id="AMGTV.us@SD" tvg-name="AMG TV" group-title="21·美国频道" ,AMG TV
@@ -247,6 +243,8 @@ https://jmc-live.ercdn.net/amutv/amutv.m3u8
 https://stream-cdn-iad.vaughnsoft.net/play/live_a_neflix01.flv
 #EXTINF:-1 tvg-id="AnimalPlanet.us@East" tvg-name="Animal Planet" group-title="21·美国频道" ,Animal Planet
 http://23.237.104.106:8080/USA_ANIMAL_PLANET/index.m3u8
+#EXTINF:-1 tvg-id="AnimalPlanetLatinAmerica.us@SD" tvg-name="Animal Planet Latin America" group-title="21·美国频道" ,Animal Planet Latin America
+http://190.128.214.97:64333/play/a01n/index.m3u8
 #EXTINF:-1 tvg-id="ATL26.us@SD" tvg-name="ATL 26" group-title="21·美国频道" ,ATL 26
 https://securestream11.champds.com/LIVE/AtlantaGALIVE/AtlantaGALIVE.m3u8
 #EXTINF:-1 tvg-id="Atlas.us@SD" tvg-name="Atlas" group-title="21·美国频道" ,Atlas
@@ -273,12 +271,12 @@ http://88.212.15.50/live/test_black/playlist.m3u8
 http://141.94.193.53/axn_black/index.m3u8
 #EXTINF:-1 tvg-id="AXNBlack.us@Poland" tvg-name="AXN Black Poland" group-title="21·美国频道" ,AXN Black Poland
 http://185.227.34.179:8080/axn-black/index.m3u8
+#EXTINF:-1 tvg-id="AXNLatinAmerica.us@Panregional" tvg-name="AXN Latin America" group-title="21·美国频道" ,AXN Latin America
+http://15.204.246.24:8080/AXNHD/index.m3u8
 #EXTINF:-1 tvg-id="AXNLatinAmerica.us@CentralAmerica" tvg-name="AXN Latin America" group-title="21·美国频道" ,AXN Latin America
 http://138.121.15.230:9002/AXN/index.m3u8
 #EXTINF:-1 tvg-id="AXNLatinAmerica.us@Andes" tvg-name="AXN Latin America Andes" group-title="21·美国频道" ,AXN Latin America Andes
 http://181.78.8.199:8000/play/a0cu/index.m3u8
-#EXTINF:-1 tvg-id="AXNLatinAmerica.us@South" tvg-name="AXN Latin America South" group-title="21·美国频道" ,AXN Latin America South
-http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/10.m3u8
 #EXTINF:-1 tvg-id="AXNWhite.us@CzechRepublic" tvg-name="AXN White CzechRepublic" group-title="21·美国频道" ,AXN White CzechRepublic
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://88.212.15.50/live/test_white/playlist.m3u8
@@ -287,8 +285,6 @@ http://185.227.34.179:8080/axn-white/index.m3u8
 #EXTINF:-1 tvg-id="AXNWhite.us@Portugal" tvg-name="AXN White Portugal" group-title="21·美国频道" ,AXN White Portugal
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://50.7.120.34:8080/AXN_WHITE/index.m3u8
-#EXTINF:-1 tvg-id="AXSTV.us@SD" tvg-name="AXS TV" group-title="21·美国频道" ,AXS TV
-https://tvsen3.aynaott.com/P2fJzfsg/index.m3u8
 #EXTINF:-1 tvg-id="BabyFirst.us@US" tvg-name="BabyFirst" group-title="21·美国频道" ,BabyFirst
 https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8
 #EXTINF:-1 tvg-id="BabyFirst.us@Spanish" tvg-name="BabyFirst Spanish" group-title="21·美国频道" ,BabyFirst Spanish
@@ -335,10 +331,12 @@ https://videostack1.cdnstream1.com:1936/binge-tv/binge-tv/playlist.m3u8
 https://2-fss-1.streamhoster.com/pl_154/205722-2251224-1/playlist.m3u8
 #EXTINF:-1 tvg-id="BloombergTelevision.us" tvg-name="Bloomberg" tvg-logo="https://i.imgur.com/VnCcH73.png" group-title="21·美国频道" ,Bloomberg
 https://bloomberg.com/media-manifest/streams/us.m3u8
+#EXTINF:-1 tvg-id="BloombergOriginals.us@SD" tvg-name="Bloomberg Originals" group-title="21·美国频道" ,Bloomberg Originals
+#EXTVLCOPT:http-referrer=https://www.bloomberg.com/originals
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+https://www.bloomberg.com/media-manifest/streams/originals-global.m3u8
 #EXTINF:-1 tvg-id="BloombergOriginals.us@US" tvg-name="Bloomberg Originals" group-title="21·美国频道" ,Bloomberg Originals
 https://bloomberg.com/media-manifest/streams/qt.m3u8
-#EXTINF:-1 tvg-id="BloombergOriginals.us@SD" tvg-name="Bloomberg Originals" group-title="21·美国频道" ,Bloomberg Originals
-https://86fdc85a.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfQmxvb21iZXJnT3JpZ2luYWxzX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="BloombergTV.us@US" tvg-name="Bloomberg TV US" group-title="21·美国频道" ,Bloomberg TV US
 https://bloomberg.com/media-manifest/streams/us.m3u8
 #EXTINF:-1 tvg-id="BloombergTV.us@LiveEvent" tvg-name="Bloomberg TV US Live Event" group-title="21·美国频道" ,Bloomberg TV US Live Event
@@ -356,8 +354,6 @@ https://hls.botflix.tv/radioo/index.m3u8
 #EXTINF:-1 tvg-id="BotflixRadioo.us@HD" tvg-name="Botflix Radioo" group-title="21·美国频道" ,Botflix Radioo
 https://hls.botflix.tv/radioo/index.m3u8
 #EXTINF:-1 tvg-name="Botflix TV" tvg-logo="https://i.imgur.com/JBEM8lP.png" group-title="21·美国频道" ,Botflix TV
-https://hls.botflix.tv/tv/index.m3u8
-#EXTINF:-1 tvg-id="BotflixTV.us@HD" tvg-name="Botflix TV" group-title="21·美国频道" ,Botflix TV
 https://hls.botflix.tv/tv/index.m3u8
 #EXTINF:-1 tvg-id="Bounce.us@SD" tvg-name="Bounce" group-title="21·美国频道" ,Bounce
 http://23.237.104.106:8080/USA_BOUNCE/index.m3u8
@@ -391,6 +387,8 @@ https://cdn-cloudfront.us-east-1.prod.ingest.aws-infra.dacast.com/live/dad6a736-
 http://179.1.196.222:9000/play/a02y/index.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkLatinAmerica.us@Brazil" tvg-name="Cartoon Network Latin America Brazil" group-title="21·美国频道" ,Cartoon Network Latin America Brazil
 http://45.162.64.114/CARTOON_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="CartoonNetworkLatinAmerica.us@SouthAtlantic" tvg-name="Cartoon Network Latin America South Atlantic" group-title="21·美国频道" ,Cartoon Network Latin America South Atlantic
+http://158.172.217.18:8000/play/a03a/index.m3u8
 #EXTINF:-1 tvg-id="CatholicTV.us@SD" tvg-name="Catholic TV" group-title="21·美国频道" ,Catholic TV
 https://catholictvhd-lh.akamaized.net/hls/live/2043390/CTVLiveHD/master.m3u8
 #EXTINF:-1 tvg-id="CBNEspanol.us@SD" tvg-name="CBN Espanol" group-title="21·美国频道" ,CBN Espanol
@@ -418,7 +416,7 @@ http://media.smc-host.com:1935/cycnow.com/cyc2/playlist.m3u8
 #EXTINF:-1 tvg-id="CinePremium.us@SD" tvg-name="Cine Premium" group-title="21·美国频道" ,Cine Premium
 http://190.61.90.17:40000/play/a02i/index.m3u8
 #EXTINF:-1 tvg-id="Cinecanal.us@Panregional" tvg-name="Cinecanal" group-title="21·美国频道" ,Cinecanal
-https://barinaslive1.boldmss.com/CINECANAL/CINECANAL.isml/CINECANAL.m3u8
+http://15.204.246.24:8080/CinecanalHD/index.m3u8
 #EXTINF:-1 tvg-id="Cinecanal.us@Pacific" tvg-name="Cinecanal Pacific" group-title="21·美国频道" ,Cinecanal Pacific
 http://138.121.15.230:9002/CINECANAL/index.m3u8
 #EXTINF:-1 tvg-id="Cinecanal.us@South" tvg-name="Cinecanal South" group-title="21·美国频道" ,Cinecanal South
@@ -427,8 +425,8 @@ http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/17.m3u8
 http://23.237.104.106:8080/USA_5STARMAX/index.m3u8
 #EXTINF:-1 tvg-id="CinemaxHits.us@East" tvg-name="Cinemax Hits" group-title="21·美国频道" ,Cinemax Hits
 http://23.237.104.106:8080/USA_MOREMAX/index.m3u8
-#EXTINF:-1 tvg-id="CinemaxLatinAmerica.us@SD" tvg-name="Cinemax Latin America" group-title="21·美国频道" ,Cinemax Latin America
-https://streaming.onnethn.com/CINEMAX/playlist.m3u8
+#EXTINF:-1 tvg-id="CinemaxLatinAmerica.us@HD" tvg-name="Cinemax Latin America HD" group-title="21·美国频道" ,Cinemax Latin America HD
+http://38.65.175.84:8000/play/a093/index.m3u8
 #EXTINF:-1 tvg-id="Cinemax.us@West" tvg-name="Cinemax West" group-title="21·美国频道" ,Cinemax West
 http://23.237.104.106:8080/USA_CINEMAX_WEST/index.m3u8
 #EXTINF:-1 tvg-id="CinePride.us@SD" tvg-name="CinePride" group-title="21·美国频道" ,CinePride
@@ -488,28 +486,38 @@ https://livestream.telvue.com/derrynh1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/play
 https://livestream.telvue.com/derrynh2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="DestinationAmerica.us@SD" tvg-name="Destination America" group-title="21·美国频道" ,Destination America
 http://23.237.104.106:8080/USA_DESTINATION_AMERICA/index.m3u8
+#EXTINF:-1 tvg-id="DHE.us@SD" tvg-name="DHE" group-title="21·美国频道" ,DHE
+http://15.204.246.24:8080/DHEHD/index.m3u8
 #EXTINF:-1 tvg-id="DidgahTV.us@SD" tvg-name="Didgah TV" group-title="21·美国频道" ,Didgah TV
 https://media.streambrothers.com:1936/8276/8276/playlist.m3u8
-#EXTINF:-1 tvg-id="DiscoveryChannelLatinAmerica.us@South" tvg-name="Discovery Channel Latin America South" group-title="21·美国频道" ,Discovery Channel Latin America South
-http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/20.m3u8
+#EXTINF:-1 tvg-id="DiscoveryChannelLatinAmerica.us@Panregional" tvg-name="Discovery Channel Latin America" group-title="21·美国频道" ,Discovery Channel Latin America
+http://45.171.64.30:6060/play/a032/index.m3u8
+#EXTINF:-1 tvg-id="DiscoveryChannelLatinAmerica.us@Brazil" tvg-name="Discovery Channel Latin America Brazil" group-title="21·美国频道" ,Discovery Channel Latin America Brazil
+http://45.162.64.114/DISCOVERY_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryFamily.us@East" tvg-name="Discovery Family" group-title="21·美国频道" ,Discovery Family
 https://tvsen5.aynaott.com/discoveryfamily/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryKidsLatinAmerica.us@Panregional" tvg-name="Discovery Kids Latin America" group-title="21·美国频道" ,Discovery Kids Latin America
 http://181.224.200.5:2277/play/a00o/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryKidsLatinAmerica.us@Chile" tvg-name="Discovery Kids Latin America Chile" group-title="21·美国频道" ,Discovery Kids Latin America Chile
 http://38.224.231.176:8000/play/a01j/index.m3u8
+#EXTINF:-1 tvg-id="DiscoveryKidsLatinAmerica.us@Colombia" tvg-name="Discovery Kids Latin America Colombia" group-title="21·美国频道" ,Discovery Kids Latin America Colombia
+http://38.134.250.110:8000/play/a003/index.m3u8
+#EXTINF:-1 tvg-id="DiscoveryKidsLatinAmerica.us@Mexico" tvg-name="Discovery Kids Latin America Mexico" group-title="21·美国频道" ,Discovery Kids Latin America Mexico
+http://38.65.175.84:8000/play/a0an/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryScienceLatinAmerica.us@SD" tvg-name="Discovery Science Latin America" group-title="21·美国频道" ,Discovery Science Latin America
 http://45.171.64.30:6060/play/a007/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryTheaterLatinAmerica.us@SD" tvg-name="Discovery Theater Latin America" group-title="21·美国频道" ,Discovery Theater Latin America
 http://181.224.200.5:2277/play/a0bj/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryTurbo.us@SD" tvg-name="Discovery Turbo" group-title="21·美国频道" ,Discovery Turbo
 http://41.205.93.154/ESPNNEWS/index.m3u8
-#EXTINF:-1 tvg-id="DiscoveryTurboLatinAmerica.us@Panregional" tvg-name="Discovery Turbo Latin America" group-title="21·美国频道" ,Discovery Turbo Latin America
-http://38.134.250.110:8000/play/a01y/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryWorld.us@LatinAmerica" tvg-name="Discovery World" group-title="21·美国频道" ,Discovery World
 http://168.196.127.137:6001/play/a097/index.m3u8
 #EXTINF:-1 tvg-id="DisneyChannel.us@East" tvg-name="Disney Channel" group-title="21·美国频道" ,Disney Channel
 http://4.30.180.36:8420/disneychannel/index.m3u8?token=test
+#EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@Panregional" tvg-name="Disney Channel Latin America" group-title="21·美国频道" ,Disney Channel Latin America
+http://190.14.10.19:16000/play/a06z/index.m3u8
+#EXTINF:-1 tvg-id="DisneyJrLatinAmerica.ar@North" tvg-name="Disney Jr. Latin America" group-title="21·美国频道" ,Disney Jr. Latin America
+http://190.14.10.19:16000/play/a02d/index.m3u8
 #EXTINF:-1 tvg-id="DisneyJunior.us@East" tvg-name="Disney Junior" group-title="21·美国频道" ,Disney Junior
 https://directv-iptv-player.vercel.app/api/stream?url=http://212.5.144.156:8080/disneyjr/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="DisneyXD.us@East" tvg-name="Disney XD" group-title="21·美国频道" ,Disney XD
@@ -532,34 +540,20 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2226
 http://23.237.104.106:8080/USA_E/index.m3u8
 #EXTINF:-1 tvg-id="ELatinAmerica.us@Mexico" tvg-name="E! Latin America Mexico" group-title="21·美国频道" ,E! Latin America Mexico
 http://72.1.184.5:8089/play/a05d/index.m3u8
-#EXTINF:-1 tvg-id="ElSembradorNuevaEvangelizacionESNE.us@SD" tvg-name="El Sembrador Nueva Evangelizacion ESNE" group-title="21·美国频道" ,El Sembrador Nueva Evangelizacion ESNE
-http://190.61.90.17:40000/play/a025/index.m3u8
 #EXTINF:-1 tvg-id="EntrepreneurTV.us@SD" tvg-name="EntrepreneurTV" group-title="21·美国频道" ,EntrepreneurTV
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2506
 #EXTINF:-1 tvg-id="ESNETV.us@SD" tvg-name="ESNE TV" group-title="21·美国频道" ,ESNE TV
 http://168.196.127.137:6001/play/a071/index.m3u8
 #EXTINF:-1 tvg-id="ESPN2.us@HD" tvg-name="ESPN 2 HD" group-title="21·美国频道" ,ESPN 2 HD
 http://85.237.89.160:9590/usa-s/ESPN-2-HD/index.m3u8
-#EXTINF:-1 tvg-id="ESPN2LatinAmerica.us@South" tvg-name="ESPN 2 Latin America" group-title="21·美国频道" ,ESPN 2 Latin America
-https://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.m3u8
-#EXTINF:-1 tvg-id="ESPN2LatinAmerica.us@Colombia" tvg-name="ESPN 2 Latin America Colombia" group-title="21·美国频道" ,ESPN 2 Latin America Colombia
-http://190.61.47.54:8000/play/a005/index.m3u8
-#EXTINF:-1 tvg-id="ESPN3LatinAmerica.us@South" tvg-name="ESPN 3 Latin America" group-title="21·美国频道" ,ESPN 3 Latin America
-https://barinaslive1.boldmss.com/ESPN_3/ESPN_3.isml/ESPN_3.m3u8
 #EXTINF:-1 tvg-id="ESPN4LatinAmerica.us@South" tvg-name="ESPN 4 Latin America" group-title="21·美国频道" ,ESPN 4 Latin America
 https://barinaslive1.boldmss.com/ESPN_4/ESPN_4.isml/ESPN_4.m3u8
 #EXTINF:-1 tvg-id="ESPN5LatinAmerica.us@South" tvg-name="ESPN 5 Latin America" group-title="21·美国频道" ,ESPN 5 Latin America
 https://barinaslive1.boldmss.com/ESPN_5/ESPN_5.isml/ESPN_5.m3u8
-#EXTINF:-1 tvg-id="ESPN6LatinAmerica.us@SD" tvg-name="ESPN 6 Latin America" group-title="21·美国频道" ,ESPN 6 Latin America
-https://barinaslive1.boldmss.com/ESPN_6/ESPN_6.isml/ESPN_6.m3u8
 #EXTINF:-1 tvg-id="ESPN7LatinAmerica.us@SD" tvg-name="ESPN 7 Latin America" group-title="21·美国频道" ,ESPN 7 Latin America
 https://barinaslive1.boldmss.com/ESPN_7/ESPN_7.isml/ESPN_7.m3u8
 #EXTINF:-1 tvg-id="ESPN.us@HD" tvg-name="ESPN HD" group-title="21·美国频道" ,ESPN HD
 http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8
-#EXTINF:-1 tvg-id="ESPNLatinAmerica.us@South" tvg-name="ESPN Latin America" group-title="21·美国频道" ,ESPN Latin America
-https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.m3u8
-#EXTINF:-1 tvg-id="ESPNLatinAmerica.us@Colombia" tvg-name="ESPN Latin America Colombia" group-title="21·美国频道" ,ESPN Latin America Colombia
-http://190.61.47.54:8000/play/a004/index.m3u8
 #EXTINF:-1 tvg-id="ESPNLatinAmerica.us@Mexico" tvg-name="ESPN Latin America Mexico" group-title="21·美国频道" ,ESPN Latin America Mexico
 http://168.228.44.241:9997/play/a06p/index.m3u8
 #EXTINF:-1 tvg-id="ESPNU.us@HD" tvg-name="ESPNU HD" group-title="21·美国频道" ,ESPNU HD
@@ -578,14 +572,14 @@ https://faithnow-hls.secdn.net/faithnow-holland-channel/play/FaithTV.smil/playli
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc5us/master.m3u8
 #EXTINF:-1 tvg-id="FGTV.us@SD" tvg-name="FGTV" group-title="21·美国频道" ,FGTV
 https://securestream11.champds.com/LIVE/FultonCoGALIVE/FultonCoGALIVE.m3u8
-#EXTINF:-1 tvg-id="FierroaFondoTV.us@SD" tvg-name="Fierro a Fondo TV" group-title="21·美国频道" ,Fierro a Fondo TV
-http://45.70.201.81:8000/play/a00x/index.m3u8
 #EXTINF:-1 tvg-id="FilmRiseClassicTV.us@SD" tvg-name="FilmRise Classic TV" group-title="21·美国频道" ,FilmRise Classic TV
 https://d2tv4k5moji5m7.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lu4pzh9l4b57p/master.m3u8
 #EXTINF:-1 tvg-id="FlowersTVUSA.us@SD" tvg-name="Flowers TV USA (396p)" group-title="21·美国频道" ,Flowers TV USA (396p)
 https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/flowers_nim_https/050522/flowers/playlist.m3u8
 #EXTINF:-1 tvg-id="FoodNetwork.us@East" tvg-name="Food Network" group-title="21·美国频道" ,Food Network
 http://23.237.104.106:8080/USA_FOOD_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="FoodNetworkLatinAmerica.us@Panregional" tvg-name="Food Network Latin America" group-title="21·美国频道" ,Food Network Latin America
+http://168.196.127.137:6001/play/a09v/index.m3u8
 #EXTINF:-1 tvg-id="FoxBusinessNetwork.us@SD" tvg-name="Fox Business Network" group-title="21·美国频道" ,Fox Business Network
 https://247preview.foxbusiness.com/hls/live/2020026/fbnv3preview/primary.m3u8
 #EXTINF:-1 tvg-id="FOXLiveNow.us" tvg-name="FOX Live Now" tvg-logo="https://graph.facebook.com/livenowfox/picture?width=200&height=200" group-title="21·美国频道" ,FOX Live Now
@@ -596,8 +590,6 @@ http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8
 https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8
 #EXTINF:-1 tvg-id="FoxSports1.us@HD" tvg-name="Fox Sports 1" group-title="21·美国频道" ,Fox Sports 1
 http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
-#EXTINF:-1 tvg-id="FoxSports2.us@HD" tvg-name="Fox Sports 2" group-title="21·美国频道" ,Fox Sports 2
-https://tvsen7.aynascope.net/foxsports2/index.m3u8
 #EXTINF:-1 tvg-id="FoxWeather.us@SD" tvg-name="Fox Weather" group-title="21·美国频道" ,Fox Weather
 https://247wlive.foxweather.com/stream/index.m3u8
 #EXTINF:-1 tvg-id="FreeSpeechTV.us@SD" tvg-name="Free Speech TV" group-title="21·美国频道" ,Free Speech TV
@@ -605,17 +597,13 @@ https://na.linear.zype.com/f2f02a72-71d0-45f3-829f-4ae51f721102/86ef0177-697d-41
 #EXTINF:-1 tvg-id="FrightFlix.us@SD" tvg-name="FrightFlix" group-title="21·美国频道" ,FrightFlix
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2229
 #EXTINF:-1 tvg-id="FTFSports.us@SD" tvg-name="FTF Sports" group-title="21·美国频道" ,FTF Sports
-https://1593604785.rsc.cdn77.org/FTF/FTF_SCTE.m3u8
+https://1657061170.rsc.cdn77.org/HLS/FTF-LINEAR.m3u8
 #EXTINF:-1 tvg-id="FunRoads.us@SD" tvg-name="Fun Roads" group-title="21·美国频道" ,Fun Roads
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=978
 #EXTINF:-1 tvg-id="Fuse.us@East" tvg-name="Fuse" group-title="21·美国频道" ,Fuse
 http://23.237.104.106:8080/USA_FUSE/index.m3u8
-#EXTINF:-1 tvg-id="FX.us@East" tvg-name="FX" group-title="21·美国频道" ,FX
-https://tvsen7.aynascope.net/fx/index.m3u8
 #EXTINF:-1 tvg-id="FXLatinAmerica.us@Panregional" tvg-name="FX Latin America" group-title="21·美国频道" ,FX Latin America
-https://barinaslive1.boldmss.com/FX/FX.isml/FX.m3u8
-#EXTINF:-1 tvg-id="Gagsnetwork.us@SD" tvg-name="Gagsnetwork" group-title="21·美国频道" ,Gagsnetwork
-http://stream.mcquack.net/458/index.m3u8
+http://15.204.246.24:8080/FXHD/index.m3u8
 #EXTINF:-1 tvg-id="Galavision.us@West" tvg-name="Galavision West" group-title="21·美国频道" ,Galavision West
 http://200.115.120.1:8000/play/ca128/index.m3u8
 #EXTINF:-1 tvg-id="GalxyTV.us@SD" tvg-name="Galxy TV" group-title="21·美国频道" ,Galxy TV
@@ -627,7 +615,7 @@ https://amg01460-gemshoppingnetw-gem-ono-x662c.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="GenesisScienceNetwork.us@SD" tvg-name="Genesis Science Network" group-title="21·美国频道" ,Genesis Science Network
 https://2-fss-1.streamhoster.com/pl_122/amlst:206018-2645902/playlist.m3u8
 #EXTINF:-1 tvg-id="GiggleMug.us@SD" tvg-name="Giggle Mug" group-title="21·美国频道" ,Giggle Mug
-https://tvsen3.aynaott.com/uYpFg3RV/index.m3u8
+https://tvsen6.aynaott.com/ytv/index.m3u8
 #EXTINF:-1 tvg-id="GillettePublicAccessTelevisionChannel189.us@SD" tvg-name="Gillette Public Access Television Channel 189" group-title="21·美国频道" ,Gillette Public Access Television Channel 189
 https://securestream11.champds.com/LIVE/GilletteWYLIVE3/GilletteWYLIVE3.m3u8
 #EXTINF:-1 tvg-id="GillettePublicAccessTelevisionChannel190.us@SD" tvg-name="Gillette Public Access Television Channel 190" group-title="21·美国频道" ,Gillette Public Access Television Channel 190
@@ -645,7 +633,7 @@ https://ott.god.tv/live/us/master.m3u8
 #EXTINF:-1 tvg-name="Golden Boy" group-title="21·美国频道" ,Golden Boy
 https://goldenboy.duckhunting.playout.vju.tv/DuckhuntingTV_GoldenBoy/main.m3u8
 #EXTINF:-1 tvg-id="GolfChannelLatinAmerica.us@SD" tvg-name="Golf Channel Latin America" group-title="21·美国频道" ,Golf Channel Latin America
-http://72.1.184.5:8089/play/a0cw/index.m3u8
+http://15.204.246.24:8080/GolfChannelHD/index.m3u8
 #EXTINF:-1 tvg-id="GospelTruthTV.us@SD" tvg-name="Gospel Truth TV" group-title="21·美国频道" ,Gospel Truth TV
 https://na.linear.zype.com/bf94f9f4-383c-40e0-9d49-279a4f33ab8d/f29b8836-d990-4c8d-b421-192a8f43edc4-zype/manifest.m3u8
 #EXTINF:-1 tvg-id="GreaterLoveTV.us@SD" tvg-name="Greater Love TV" group-title="21·美国频道" ,Greater Love TV
@@ -656,16 +644,14 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-gritxtra-tabl
 https://tv.gunaz.tv/hls/live.m3u8
 #EXTINF:-1 tvg-id="HallmarkMoviesMore.us@SD" tvg-name="Hallmark Movies & More" group-title="21·美国频道" ,Hallmark Movies & More
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991709
+#EXTINF:-1 tvg-id="HappyKids.us@SD" tvg-name="HappyKids" group-title="21·美国频道" ,HappyKids
+https://mumbai-edge.smartplaytv.in/HappyKids/index.m3u8
 #EXTINF:-1 tvg-id="HarmonyGospelMusicTV.us@SD" tvg-name="Harmony Gospel Music TV" group-title="21·美国频道" ,Harmony Gospel Music TV
 https://tgn.bozztv.com/watc57/watc57-harmony/watc57-harmony/index.m3u8
-#EXTINF:-1 tvg-id="HBO.us@East" tvg-name="HBO" group-title="21·美国频道" ,HBO
-http://tvsen7.aynascope.net/hbo/index.m3u8
 #EXTINF:-1 tvg-id="HBO2LatinAmerica.us@HD" tvg-name="HBO 2 Latin America HD" group-title="21·美国频道" ,HBO 2 Latin America HD
 http://45.171.64.30:6060/play/a00i/index.m3u8
 #EXTINF:-1 tvg-id="HBOFamilyLatinAmerica.us@SD" tvg-name="HBO Family Latin America" group-title="21·美国频道" ,HBO Family Latin America
 http://45.171.64.30:6060/play/a00k/index.m3u8
-#EXTINF:-1 tvg-id="HBOHits.us@East" tvg-name="HBO Hits" group-title="21·美国频道" ,HBO Hits
-http://tvsen7.aynascope.net/hbo2/index.m3u8
 #EXTINF:-1 tvg-id="HBOLatinAmerica.us@SD" tvg-name="HBO Latin America" group-title="21·美国频道" ,HBO Latin America
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/154.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18
 https://streaming.onnethn.com/HBO/playlist.m3u8
@@ -675,26 +661,24 @@ http://45.134.141.161:2200/ARG/HBO_HD/index.m3u8
 https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b/heartland/index.m3u8
 #EXTINF:-1 tvg-id="Heartland.us@Eastern" tvg-name="Heartland" group-title="21·美国频道" ,Heartland
 https://2-fss-2.streamhoster.com/pl_120/201950-2724904-1/playlist.m3u8
-#EXTINF:-1 tvg-id="HGTV.us@East" tvg-name="HGTV" group-title="21·美国频道" ,HGTV
-http://tvsen7.aynascope.net/hgtv/index.m3u8
 #EXTINF:-1 tvg-id="HGTVLatinAmerica.us@Panregional" tvg-name="HGTV Latin America" group-title="21·美国频道" ,HGTV Latin America
 http://38.87.224.19:2220/play/a01p/index.m3u8
 #EXTINF:-1 tvg-id="HisGloryTV.us@SD" tvg-name="His Glory TV" group-title="21·美国频道" ,His Glory TV
 https://customer-6itfaqopbksp5p0q.cloudflarestream.com/3972e89fb79bf6d6dd2a16c75455087a/manifest/video.m3u8
+#EXTINF:-1 tvg-id="History.us@East" tvg-name="History" group-title="21·美国频道" ,History
+http://212.5.144.156:8080/history/index.m3u8
 #EXTINF:-1 tvg-id="History2LatinAmerica.us@Panregional" tvg-name="History 2 Latin America" group-title="21·美国频道" ,History 2 Latin America
 http://190.93.224.42/HISTORY-2/index.m3u8
 #EXTINF:-1 tvg-id="HistoryAsia.us@SD" tvg-name="History Asia" group-title="21·美国频道" ,History Asia
 https://freem3u.xyz/api/live/play.m3u8?vid=9856
 #EXTINF:-1 tvg-id="HistoryLatinAmerica.us@Panregional" tvg-name="History Latin America" group-title="21·美国频道" ,History Latin America
-http://138.121.15.230:9002/HISTORY-CHANNEL/index.m3u8
-#EXTINF:-1 tvg-id="HistoryLatinAmerica.us@South" tvg-name="History Latin America South" group-title="21·美国频道" ,History Latin America South
-http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/37.m3u8
+http://15.204.246.24:8080/HistoryHD/index.m3u8
 #EXTINF:-1 tvg-id="HLN.us@SD" tvg-name="HLN" group-title="21·美国频道" ,HLN
 http://23.237.104.106:8080/USA_HLN/index.m3u8
 #EXTINF:-1 tvg-id="HMIPROMZNEWS.us@SD" tvg-name="HMI PROMZ NEWS" group-title="21·美国频道" ,HMI PROMZ NEWS
 https://video1.getstreamhosting.com:1936/8326/8326/playlist.m3u8
 #EXTINF:-1 tvg-id="HolaTVLatinAmerica.us@SD" tvg-name="Hola! TV Latin America" group-title="21·美国频道" ,Hola! TV Latin America
-http://168.196.127.137:6001/play/a03q/index.m3u8
+http://15.204.246.24:8080/HOLATVHD/index.m3u8
 #EXTINF:-1 tvg-id="HollyWire.us@SD" tvg-name="HollyWire" group-title="21·美国频道" ,HollyWire
 https://bozztv.com/hwotta/playlist/playlist.m3u8
 #EXTINF:-1 tvg-id="HopeChannelInterAmerica.us@SD" tvg-name="Hope Channel Inter-America" group-title="21·美国频道" ,Hope Channel Inter-America
@@ -722,7 +706,7 @@ https://edge1.lifestreamcdn.com/live/impactroku1/index.m3u8
 #EXTINF:-1 tvg-id="IntheKitchen.us@SD" tvg-name="In the kitchen" group-title="21·美国频道" ,In the kitchen
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc4us/master.m3u8
 #EXTINF:-1 tvg-id="InvestigationDiscoveryLatinAmerica.us@South" tvg-name="Investigation Discovery Latin America South" group-title="21·美国频道" ,Investigation Discovery Latin America South
-http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/41.m3u8
+http://38.65.175.84:8000/play/a0ch/index.m3u8
 #EXTINF:-1 tvg-id="IONPlus.us@East" tvg-name="ION Plus" group-title="21·美国频道" ,ION Plus
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionplus-tablo/playlist.m3u8
 #EXTINF:-1 tvg-id="IONTV.us@East" tvg-name="ION TV" group-title="21·美国频道" ,ION TV
@@ -787,12 +771,12 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox11losangelesktt
 https://streaming-live-fcdn.api.prd.univisionnow.com/kuvn/kuvn.isml/hls/kuvn.m3u8
 #EXTINF:-1 tvg-id="NBC.us@KXASTV" tvg-name="KXAS-DT1" group-title="21·美国频道" ,KXAS-DT1
 https://d368vp0qqzvkid.cloudfront.net/11603/88889706/hls/master.m3u8?ads.xumo_channelId=88889706a&ads.xumo_ifaType=&ads.xumo_providerId=3831&ads.xumo_providerName=NBCNDAL
-#EXTINF:-1 tvg-id="Laff.us@SD" tvg-name="Laff" group-title="21·美国频道" ,Laff
-https://tvsen3.aynaott.com/UC6a8nsf/index.m3u8
 #EXTINF:-1 tvg-id="LaoThaiTV.us@SD" tvg-name="Lao-Thai TV" group-title="21·美国频道" ,Lao-Thai TV
 https://livefta.malimarcdn.com/ftaedge00/laothaius.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="LGTV.us@SD" tvg-name="LGTV" group-title="21·美国频道" ,LGTV
 https://livestream.telvue.com/lexmedia3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/lexmedia3/stream1/playlist.m3u8
+#EXTINF:-1 tvg-id="LifetimeLatinAmerica.us@Panregional" tvg-name="Lifetime Latin America" group-title="21·美国频道" ,Lifetime Latin America
+http://138.121.15.230:9002/LIFETIME/index.m3u8
 #EXTINF:-1 tvg-id="LifetimeLatinAmerica.us@Brazil" tvg-name="Lifetime Latin America Brazil" group-title="21·美国频道" ,Lifetime Latin America Brazil
 http://170.83.16.50/LIFETIME/index.m3u8
 #EXTINF:-1 tvg-id="LifetimeLatinAmerica.us@Mexico" tvg-name="Lifetime Latin America Mexico" group-title="21·美国频道" ,Lifetime Latin America Mexico
@@ -856,8 +840,6 @@ http://38.188.186.47:4000/play/a04n/index.m3u8
 http://181.78.12.119:16123/play/ch53/index.m3u8
 #EXTINF:-1 tvg-id="MiMusicaRomantica.us@SD" tvg-name="Mi Musica Romantica" group-title="21·美国频道" ,Mi Musica Romantica
 http://181.78.12.119:16123/play/ch54/index.m3u8
-#EXTINF:-1 tvg-id="MiMusicaSalsa.us@SD" tvg-name="Mi Musica Salsa" group-title="21·美国频道" ,Mi Musica Salsa
-http://181.78.12.119:16123/play/ch55/index.m3u8
 #EXTINF:-1 tvg-id="MilitaryHistory.us@SD" tvg-name="Military History" group-title="21·美国频道" ,Military History
 #EXTVLCOPT:http-referrer=https://bhoomtv.org/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/154.0.0.0 Safari/537.36
@@ -879,13 +861,11 @@ https://p13.usnlive.com/stream/msnbc.m3u8
 #EXTINF:-1 tvg-id="MTV.us@East" tvg-name="MTV" group-title="21·美国频道" ,MTV
 http://23.237.104.106:8080/USA_MTV/index.m3u8
 #EXTINF:-1 tvg-id="MTVLatinAmerica.us@Panregional" tvg-name="MTV Latin America" group-title="21·美国频道" ,MTV Latin America
-https://streaming.onnethn.com/MTV/playlist.m3u8
+http://15.204.246.24:8080/MTVHD/index.m3u8
 #EXTINF:-1 tvg-id="MTVLive.us@SD" tvg-name="MTV Live" group-title="21·美国频道" ,MTV Live
 http://23.237.104.106:8080/USA_MTV_LIVE/index.m3u8
 #EXTINF:-1 tvg-id="Boni-Records.com.us" tvg-name="Music Channel" tvg-logo="http://media.boni-records.com/logo.png" group-title="21·美国频道" ,Music Channel
 http://media.boni-records.com/index.m3u8
-#EXTINF:-1 tvg-id="MuslimNetworkTV.us@SD" tvg-name="Muslim Network TV" group-title="21·美国频道" ,Muslim Network TV
-https://afghantv.app/hls2/muslimnetwork/index.m3u8
 #EXTINF:-1 tvg-id="NashuaETV.us@SD" tvg-name="Nashua ETV Channel 22 Nashua NH" group-title="21·美国频道" ,Nashua ETV Channel 22 Nashua NH
 https://livestream.telvue.com/nashuanh2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="GovernmentTV16.us@SD" tvg-name="Nashua GTV Channel 16 Nashua NH" group-title="21·美国频道" ,Nashua GTV Channel 16 Nashua NH
@@ -896,16 +876,18 @@ https://livestream.telvue.com/natickpegasus1/f7b44cfafd5c52223d5498196c8a2e7b.sd
 https://livestream.telvue.com/natickpegasus3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="NatickPublicAccessChannel.us@SD" tvg-name="Natick Public Access Channel" group-title="21·美国频道" ,Natick Public Access Channel
 https://livestream.telvue.com/natickpegasus2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="NationalGeographic.us@East" tvg-name="National Geographic" group-title="21·美国频道" ,National Geographic
+http://212.5.144.156:8080/natgeo/index.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicLatinAmerica.us@Panregional" tvg-name="National Geographic Latin America" group-title="21·美国频道" ,National Geographic Latin America
-https://barinaslive1.boldmss.com/NATGEO/NATGEO.isml/NATGEO.m3u8
+http://15.204.246.24:8080/NatGeoHD/index.m3u8
 #EXTINF:-1 tvg-id="NBATV.us@SD" tvg-name="NBA TV" group-title="21·美国频道" ,NBA TV
-http://23.237.104.106:8080/USA_NBA/index.m3u8
+http://rezofoot.tv/NBATV/index.m3u8
 #EXTINF:-1 tvg-id="NBC.us@WMAQTV" tvg-name="NBC 5 Chicago Live News" group-title="21·美国频道" ,NBC 5 Chicago Live News
 https://d368vp0qqzvkid.cloudfront.net/11603/88889704/hls/master.m3u8?ads.xumo_channelId=88889704a&ads.xumo_ifaType=&ads.xumo_providerId=3818&ads.xumo_providerName=NBCNCHI
 #EXTINF:-1 tvg-id="NBCLXHome.us@HD" tvg-name="NBC LX Home" group-title="21·美国频道" ,NBC LX Home
 https://plex-xumoent-ch485-e7l5l.fast.nbcuni.com/live/master_5.m3u8
 #EXTINF:-1 tvg-id="NBCNewsNOW.us@SD" tvg-name="NBC News NOW" group-title="21·美国频道" ,NBC News NOW
-https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99984003
+https://livehub-voidnet.onrender.com/cluster/streamcore/us/NBC_REDIS.m3u8
 #EXTINF:-1 tvg-id="NBCSportsNOW.us@SD" tvg-name="NBC Sports NOW" group-title="21·美国频道" ,NBC Sports NOW
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008
 #EXTINF:-1 tvg-id="NBC.us@WKYC" tvg-name="NBC WKYC" group-title="21·美国频道" ,NBC WKYC
@@ -923,11 +905,9 @@ https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
 #EXTINF:-1 tvg-id="Newsy.us@SD" tvg-name="Newsy" group-title="21·美国频道" ,Newsy
 https://547f72e6652371c3.mediapackage.us-east-1.amazonaws.com/out/v1/e3e6e29095844c4ba7d887f01e44a5ef/index.m3u8
 #EXTINF:-1 tvg-id="NickJr.us@East" tvg-name="Nick Jr." group-title="21·美国频道" ,Nick Jr.
-http://tvsen7.aynascope.net/nickjr/index.m3u8
+http://212.5.144.156:8080/nickjr/index.m3u8
 #EXTINF:-1 tvg-id="NickJrLatinAmerica.us@Panregional" tvg-name="Nick Jr. Latin America" group-title="21·美国频道" ,Nick Jr. Latin America
 https://streaming.onnethn.com/NICK_JR/playlist.m3u8
-#EXTINF:-1 tvg-id="NickelodeonLatinAmerica.us@Panregional" tvg-name="Nickelodeon Latin America" group-title="21·美国频道" ,Nickelodeon Latin America
-https://barinaslive1.boldmss.com/NICK/NICK.isml/NICK.m3u8
 #EXTINF:-1 tvg-id="Nicktoons.us@East" tvg-name="Nicktoons" group-title="21·美国频道" ,Nicktoons
 http://41.205.93.154/NICKTOONS/index.m3u8
 #EXTINF:-1 tvg-id="NorCastWeather.us@HD" tvg-name="NorCast Weather" group-title="21·美国频道" ,NorCast Weather
@@ -957,11 +937,11 @@ https://live.ntdtv.com/cwlive220/playlist.m3u8
 #EXTINF:-1 tvg-id="NTDTVChina.us@SD" tvg-name="NTD TV China" group-title="21·美国频道" ,NTD TV China
 https://live.ntdtv.com/cnlive900/playlist.m3u8
 #EXTINF:-1 tvg-id="NTDTVEnglish.us@USA" tvg-name="NTD TV English" group-title="21·美国频道" ,NTD TV English
-https://amg17596-amg17596c1-ntdtv-worldwide-3276.playouts.now.amagi.tv/playlist/amg17596-newtangdynastytelevision-ntdtv-ntdtvworldwide/playlist.m3u8
+https://ntd02.akamaized.net/NTDA/index.m3u8
 #EXTINF:-1 tvg-id="NTDTVEnglish.us@UK" tvg-name="NTD TV English UK" group-title="21·美国频道" ,NTD TV English UK
 https://ntd02.akamaized.net/NTD-UK/index.m3u8
 #EXTINF:-1 tvg-id="NTDTV.us@West" tvg-name="NTD TV West" group-title="21·美国频道" ,NTD TV West
-https://live.ntdtv.com/uwlive990/playlist.m3u8
+https://ntd02.akamaized.net/HD-LA/index.m3u8
 #EXTINF:-1 tvg-id="OANPlus.us@SD" tvg-name="OAN Plus" group-title="21·美国频道" ,OAN Plus
 https://a-cdn.herringnetwork.com/affiliate/oane/playlist.m3u8
 #EXTINF:-1 tvg-id="OCNTV.us@SD" tvg-name="OCN TV" group-title="21·美国频道" ,OCN TV
@@ -1073,7 +1053,7 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2240
 #EXTINF:-1 tvg-id="SECNetwork.us@SD" tvg-name="SEC Network" group-title="21·美国频道" ,SEC Network
 http://23.237.104.106:8080/USA_SEC_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="SemillitasTV.us@SD" tvg-name="Semillitas TV" group-title="21·美国频道" ,Semillitas TV
-http://168.196.127.137:6001/play/a04y/index.m3u8
+http://45.5.117.99:8000/play/a0g3/index.m3u8
 #EXTINF:-1 tvg-id="ShalomWorld.us@NorthAmerica" tvg-name="Shalom World" group-title="21·美国频道" ,Shalom World
 https://broadcaster-1.cclouds.in/srt-2/channel2_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="ShalomWorld.us@Europe" tvg-name="Shalom World Europe" group-title="21·美国频道" ,Shalom World Europe
@@ -1093,15 +1073,17 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2241
 #EXTINF:-1 tvg-id="SmurfTV.us@SD" tvg-name="Smurf TV" group-title="21·美国频道" ,Smurf TV
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4065
 #EXTINF:-1 tvg-id="SNLVault.us@SD" tvg-name="SNL Vault" group-title="21·美国频道" ,SNL Vault
-https://d4whmvwm0rdvi.cloudfront.net/10007/99993017/hls/master.m3u8?ads.xumo_channelId=99993017
+https://xumo-xumoent-vc-103-d3uqt.fast.nbcuni.com/live/master.m3u8
 #EXTINF:-1 tvg-id="SonicTV.us@SD" tvg-name="Sonic TV" group-title="21·美国频道" ,Sonic TV
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=16764
 #EXTINF:-1 tvg-id="SonyChannelAndes.us@SD" tvg-name="Sony Channel Andes" group-title="21·美国频道" ,Sony Channel Andes
-http://190.93.224.42/SONY-CHANNEL/index.m3u8
+http://15.204.246.24:8080/SonyHD/index.m3u8
 #EXTINF:-1 tvg-id="SonyKALHindi.us@SD" tvg-name="Sony KAL Hindi" group-title="21·美国频道" ,Sony KAL Hindi
 https://wurlsonypicturestv.global.transmit.live/hls/68deeb1c0238cda82df543dd/v1/spt_sonykal_1/lg_us/latest/main/hls/playlist.m3u8
-#EXTINF:-1 tvg-id="StarChannelLatinAmerica.us@South" tvg-name="Star Channel Latin America South" group-title="21·美国频道" ,Star Channel Latin America South
-http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/51.m3u8
+#EXTINF:-1 tvg-id="SonyMoviesLatinAmerica.us@SD" tvg-name="Sony Movies Latin America" group-title="21·美国频道" ,Sony Movies Latin America
+http://15.204.246.24:8080/SonyMoviesHD/index.m3u8
+#EXTINF:-1 tvg-id="StarChannelLatinAmerica.us@Panregional" tvg-name="Star Channel Latin America" group-title="21·美国频道" ,Star Channel Latin America
+http://15.204.246.24:8080/STARCHANNELHD/index.m3u8
 #EXTINF:-1 tvg-id="StarzComedy.us@East" tvg-name="Starz Comedy" group-title="21·美国频道" ,Starz Comedy
 http://23.237.104.106:8080/USA_STARZ_COMEDY/index.m3u8
 #EXTINF:-1 tvg-id="StarzKidsFamily.us@East" tvg-name="Starz Kids & Family" group-title="21·美国频道" ,Starz Kids & Family
@@ -1117,9 +1099,9 @@ https://2-fss-1.streamhoster.com/pl_122/206858-4412976-1/playlist.m3u8
 #EXTINF:-1 tvg-id="StrykTV.us@HD" tvg-name="Stryk TV" group-title="21·美国频道" ,Stryk TV
 https://fffffff110156200.tvustream.com:8298/ryfy.m3u8
 #EXTINF:-1 tvg-id="StudioUniversalLatinAmerica.us@Panregional" tvg-name="Studio Universal Latin America" group-title="21·美国频道" ,Studio Universal Latin America
-http://138.121.15.230:9002/STUDIO-UNIVERSAL/index.m3u8
-#EXTINF:-1 tvg-id="StudioUniversalLatinAmerica.us@South" tvg-name="Studio Universal Latin America South" group-title="21·美国频道" ,Studio Universal Latin America South
-http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/53.m3u8
+http://15.204.246.24:8080/StudioUniversalHD/index.m3u8
+#EXTINF:-1 tvg-id="StudioUniversalLatinAmerica.us@Brazil" tvg-name="Studio Universal Latin America Brazil" group-title="21·美国频道" ,Studio Universal Latin America Brazil
+http://187.102.210.46/universo/index.m3u8
 #EXTINF:-1 tvg-id="SUMtvEnglish.us@SD" tvg-name="SUMtv English" group-title="21·美国频道" ,SUMtv English
 https://bozztv.com/uni10rtmp/ssstv1-cdn/smil:ssstv1web.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SUMtvLatino.us@SD" tvg-name="SUMtv Latino" group-title="21·美国频道" ,SUMtv Latino
@@ -1128,6 +1110,8 @@ https://bozztv.com/uni10rtmp/ssstv2-cdn/smil:ssstv2web.smil/playlist.m3u8
 http://23.237.104.106:8080/USA_SYFY/index.m3u8
 #EXTINF:-1 tvg-id="TalkinLiveClassicsTV.us@SD" tvg-name="Talkin Live Classics TV" group-title="21·美国频道" ,Talkin Live Classics TV
 https://2-fss-1.streamhoster.com/pl_122/206338-3120682-1/playlist.m3u8
+#EXTINF:-1 tvg-id="TBN.us@East" tvg-name="TBN" group-title="21·美国频道" ,TBN
+http://212.5.144.156:8080/tbn/index.m3u8
 #EXTINF:-1 tvg-id="TBNPacific.us@SD" tvg-name="TBN Pacific" group-title="21·美国频道" ,TBN Pacific
 https://broadcast.tbnpacific.org.au:4430/stream/TBNPacificTV/playlist.m3u8
 #EXTINF:-1 tvg-id="TCMLatinAmerica.us@Chile" tvg-name="TCM Latin America Chile" group-title="21·美国频道" ,TCM Latin America Chile
@@ -1138,6 +1122,8 @@ http://45.171.64.30:6060/play/a014/index.m3u8
 https://cdn.jwplayer.com/live/broadcast/frRD2nUK.m3u8
 #EXTINF:-1 tvg-id="TeleBoston.us@SD" tvg-name="Tele Boston" group-title="21·美国频道" ,Tele Boston
 https://tv2.fastcast4u.com:3238/live/radiotelebostonlive.m3u8
+#EXTINF:-1 tvg-id="Telecyan.us@HD" tvg-name="Telecyan" group-title="21·美国频道" ,Telecyan
+https://live20.bozztv.com/giatvplayout7/giatv-211227/playlist.m3u8
 #EXTINF:-1 tvg-id="Telemundo.us@EastHD" tvg-name="Telemundo East HD" group-title="21·美国频道" ,Telemundo East HD
 https://streamer1.nexgen.bz/TELEMUNDO/index.m3u8
 #EXTINF:-1 tvg-id="TelemundoInternacional.us@South" tvg-name="Telemundo Internacional" group-title="21·美国频道" ,Telemundo Internacional
@@ -1150,8 +1136,6 @@ https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master_7
 https://televisioncaribe.com/index.m3u8
 #EXTINF:-1 tvg-id="TennisChannel.us@SD" tvg-name="Tennis Channel" group-title="21·美国频道" ,Tennis Channel
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
-#EXTINF:-1 tvg-id="TennisChannel2.us@SD" tvg-name="Tennis Channel 2" group-title="21·美国频道" ,Tennis Channel 2
-https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
 #EXTINF:-1 tvg-id="TheCountryNetwork.us@SD" tvg-name="The Country Network" group-title="21·美国频道" ,The Country Network
 https://amg00600-amg00600c1-thecountrynetwork-us-5497.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TheFirstTV.us@SD" tvg-name="The First TV" group-title="21·美国频道" ,The First TV
@@ -1193,8 +1177,6 @@ http://181.78.211.244:8005/play/a09g/index.m3u8
 http://190.93.224.42/TNT-NOVELAS/index.m3u8
 #EXTINF:-1 tvg-id="TNTNovelas.us@Brazil" tvg-name="TNT Novelas Brazil" group-title="21·美国频道" ,TNT Novelas Brazil
 http://45.162.64.114/TNT_NOVELAS/index.m3u8
-#EXTINF:-1 tvg-id="TNTNovelas.us@Colombia" tvg-name="TNT Novelas Colombia" group-title="21·美国频道" ,TNT Novelas Colombia
-http://190.61.47.54:8000/play/a02f/index.m3u8
 #EXTINF:-1 tvg-id="ToonGoggles.us@SD" tvg-name="Toon Goggles" group-title="21·美国频道" ,Toon Goggles
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=37
 #EXTINF:-1 tvg-id="ToonamiAftermath.us@East" tvg-name="Toonami Aftermath East" group-title="21·美国频道" ,Toonami Aftermath East
@@ -1206,7 +1188,7 @@ http://api.toonamiaftermath.com:3000/radio/playlist.m3u8
 #EXTINF:-1 tvg-id="ToonamiAftermath.us@West" tvg-name="Toonami Aftermath West" group-title="21·美国频道" ,Toonami Aftermath West
 http://api.toonamiaftermath.com:3000/pst/playlist.m3u8
 #EXTINF:-1 tvg-id="Tooncast.us@Panregional" tvg-name="Tooncast" group-title="21·美国频道" ,Tooncast
-https://streaming.onnethn.com/TOONCAST/playlist.m3u8
+http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/69.m3u8
 #EXTINF:-1 tvg-id="Tooncast.us@Argentina" tvg-name="Tooncast Argentina" group-title="21·美国频道" ,Tooncast Argentina
 http://45.134.141.161:2200/ARG/Tooncast/index.m3u8
 #EXTINF:-1 tvg-id="Tooncast.us@SouthAmerica" tvg-name="Tooncast SouthAmerica" group-title="21·美国频道" ,Tooncast SouthAmerica
@@ -1286,9 +1268,7 @@ http://168.228.44.241:9997/play/a09e/index.m3u8
 #EXTINF:-1 tvg-id="UniversalCinema.us@SD" tvg-name="Universal Cinema" group-title="21·美国频道" ,Universal Cinema
 http://168.196.127.137:6001/play/a09b/index.m3u8
 #EXTINF:-1 tvg-id="UniversalTVLatinAmerica.us@Panregional" tvg-name="Universal TV Latin America" group-title="21·美国频道" ,Universal TV Latin America
-http://138.121.15.230:9002/UNIVERSAL-CHANNEL/index.m3u8
-#EXTINF:-1 tvg-id="UniversalTVLatinAmerica.us@Colombia" tvg-name="Universal TV Latin America Colombia" group-title="21·美国频道" ,Universal TV Latin America Colombia
-http://38.134.250.110:8000/play/a006/index.m3u8
+http://15.204.246.24:8080/UniversalHD/index.m3u8
 #EXTINF:-1 tvg-id="UnivisionTlnovelas.us@SD" tvg-name="Univision Tlnovelas" group-title="21·美国频道" ,Univision Tlnovelas
 http://200.115.120.1:8000/play/ca110/index.m3u8
 #EXTINF:-1 tvg-id="USANetworkLatinAmerica.us@Panregional" tvg-name="USA Network Latin America" group-title="21·美国频道" ,USA Network Latin America
@@ -1317,8 +1297,6 @@ https://2-fss-2.streamhoster.com/pl_118/amlst:204972-1949480/playlist.m3u8
 https://2-fss-2.streamhoster.com/pl_118/204972-1954106-1/playlist.m3u8
 #EXTINF:-1 tvg-id="WarnerChannel.us@Colombia" tvg-name="Warner Channel Colombia" group-title="21·美国频道" ,Warner Channel Colombia
 http://38.134.250.110:8000/play/a029/index.m3u8
-#EXTINF:-1 tvg-id="WarnerChannel.us@South" tvg-name="Warner Channel South" group-title="21·美国频道" ,Warner Channel South
-http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/68.m3u8
 #EXTINF:-1 tvg-id="WarnerTVAsia.us@SD" tvg-name="Warner TV Asia" group-title="21·美国频道" ,Warner TV Asia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://cdn4.skygo.mn/live/disk1/Warner/HLSv3-FTA/Warner.m3u8
@@ -1396,6 +1374,8 @@ https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wsocbreaking-on
 https://d368vp0qqzvkid.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_nbc-direct/adcee832-5511-4ed1-bcef-58616c0f530f/4.m3u8
 #EXTINF:-1 tvg-id="Fox.us@WTTG" tvg-name="WTTG-DT1" group-title="21·美国频道" ,WTTG-DT1
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox5dcwttg-vizious/playlist.m3u8
+#EXTINF:-1 tvg-id="NBC.us@WTVJ" tvg-name="WTVJ-DT1" group-title="21·美国频道" ,WTVJ-DT1
+https://nbculocallive.akamaized.net/hls/live/2037498/miami/stream1/master.m3u8
 #EXTINF:-1 tvg-id="Fox.us@WTVT" tvg-name="WTVT-DT1" group-title="21·美国频道" ,WTVT-DT1
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox13tampabaywtvt-vizious/playlist.m3u8
 #EXTINF:-1 tvg-id="Fox.us@WTXFTV" tvg-name="WTXF-DT1" group-title="21·美国频道" ,WTXF-DT1
@@ -1430,10 +1410,10 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=16767
 https://amg01796-amg01796c19-rakuten-gb-7486.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-yugioh2en-rakutengb/playlist.m3u8
 #EXTINF:-1 tvg-id="ZarinTV.us@SD" tvg-name="Zarin TV" group-title="21·美国频道" ,Zarin TV
 https://fl1002.bozztv.com/gf-zarintv/index.m3u8
+#EXTINF:-1 tvg-id="AathavanTV.uk@SD" tvg-name="Aathavan TV" group-title="22·英国频道" ,Aathavan TV
+https://oj7lnxonyg82-hls-live.5centscdn.com/uks/24263a839810d2041a349baaeef36a79.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="AfghanistanInternational.uk@SD" tvg-name="Afghanistan International" group-title="22·英国频道" ,Afghanistan International
 https://hls.afintl.com/hls/stream.m3u8
-#EXTINF:-1 tvg-id="AfrobeatTVEntertainment.uk@SD" tvg-name="Afrobeats" group-title="22·英国频道" ,Afrobeats
-https://stream.ecable.tv/afrobeats/index.m3u8
 #EXTINF:-1 tvg-id="AhlulbaytTV.uk@SD" tvg-name="Ahlulbayt TV" group-title="22·英国频道" ,Ahlulbayt TV
 https://cd198.anystream.uk:8082/hls/abtv3ng/index.m3u8
 #EXTINF:-1 tvg-id="AMCEurope.uk@CzechRepublic" tvg-name="AMC Europe Czech Republic" group-title="22·英国频道" ,AMC Europe Czech Republic
@@ -1462,16 +1442,16 @@ https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_ch
 https://stream8.cinerama.uz/1251/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk@NorthAmerica" tvg-name="BBC News North America" group-title="22·英国频道" ,BBC News North America
 https://tvsen1.aynaott.com/shn6jGTk/index.m3u8
-#EXTINF:-1 tvg-id="BBCNews.uk@SouthAsia" tvg-name="BBC News South Asia" group-title="22·英国频道" ,BBC News South Asia
-https://mumbai-edge.smartplaytv.in/BBCNews/index.m3u8
-#EXTINF:-1 tvg-id="BBCRadio1Xtra.uk" tvg-name="BBC Radio 1Xtra" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd1x-epg.png" group-title="22·英国频道" ,BBC Radio 1Xtra
-https://lsn.lv/bbcradio.m3u8?station=bbc_1xtra&bitrate=320000
+#EXTINF:-1 tvg-id="BBCRadio1.uk" tvg-name="BBC Radio 1" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd1-epg.png" group-title="22·英国频道" ,BBC Radio 1
+https://lsn.lv/bbcradio.m3u8?station=bbc_radio_one&bitrate=320000
 #EXTINF:-1 tvg-id="BBCRadio2.uk" tvg-name="BBC Radio 2" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd2-epg.png" group-title="22·英国频道" ,BBC Radio 2
 https://lsn.lv/bbcradio.m3u8?station=bbc_radio_two&bitrate=320000
 #EXTINF:-1 tvg-id="BBCRadio3.uk" tvg-name="BBC Radio 3" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd3-epg.png" group-title="22·英国频道" ,BBC Radio 3
 https://lsn.lv/bbcradio.m3u8?station=bbc_radio_three&bitrate=320000
-#EXTINF:-1 tvg-id="BBCRadio4Extra.uk" tvg-name="BBC Radio 4 Extra" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd4x-epg.png" group-title="22·英国频道" ,BBC Radio 4 Extra
-https://lsn.lv/bbcradio.m3u8?station=bbc_radio_four_extra&bitrate=320000
+#EXTINF:-1 tvg-id="BBCRadio5Live.uk" tvg-name="BBC Radio 5 Live" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd5l-epg.png" group-title="22·英国频道" ,BBC Radio 5 Live
+https://lsn.lv/bbcradio.m3u8?station=bbc_radio_five_live&bitrate=320000
+#EXTINF:-1 tvg-id="BBCRadio6Music.uk" tvg-name="BBC Radio 6 Music" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcrd6-epg.png" group-title="22·英国频道" ,BBC Radio 6 Music
+https://lsn.lv/bbcradio.m3u8?station=bbc_6music&bitrate=320000
 #EXTINF:-1 tvg-id="BloombergTVEurope.uk" tvg-name="Bloomberg TV" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1074.png" group-title="22·英国频道" ,Bloomberg TV
 https://bloomberg.com/media-manifest/streams/eu.m3u8
 #EXTINF:-1 tvg-id="BloombergTV.us@EMEALiveEvent" tvg-name="Bloomberg TV EMEA Live Event" group-title="22·英国频道" ,Bloomberg TV EMEA Live Event
@@ -1480,8 +1460,6 @@ https://bloomberg.com/media-manifest/streams/eu-event.m3u8
 https://bloomberg.com/media-manifest/streams/eu.m3u8
 #EXTINF:-1 tvg-id="BritAsiaTV.uk@HD" tvg-name="Brit Asia TV" group-title="22·英国频道" ,Brit Asia TV
 https://hls.autopo.st/hls/britasiatv/index.m3u8
-#EXTINF:-1 tvg-id="Canaf54TV.uk@SD" tvg-name="Canaf54 TV" group-title="22·英国频道" ,Canaf54 TV
-https://5caf24a595d94.streamlock.net:1937/pvyugfkzkc/pvyugfkzkc/playlist.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkCEE.uk@CzechRepublic" tvg-name="Cartoon Network CEE Czech Republic" group-title="22·英国频道" ,Cartoon Network CEE Czech Republic
 http://88.212.7.14/live/test_cartoon_network_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkCEE.uk@Ukraine" tvg-name="Cartoon Network CEE Ukraine" group-title="22·英国频道" ,Cartoon Network CEE Ukraine
@@ -1531,7 +1509,7 @@ https://cffda8ff.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/154.0.0.0 Safari/537.36
 https://techtraveleat.in/stream.m3u8?id=foodxp
 #EXTINF:-1 tvg-id="GBNews.uk@SD" tvg-name="GB News" group-title="22·英国频道" ,GB News
-https://live-gbnews.simplestreamcdn.com/s3/gbnews_subs/index.m3u8
+https://live-gbnews.simplestreamcdn.com/live5/gbnews/bitrate1.isml/manifest.m3u8
 #EXTINF:-1 tvg-id="GemsTV.uk" tvg-name="GemsTV S" tvg-logo="https://i.imgur.com/IR2sTag.png" group-title="22·英国频道" ,GemsTV S
 https://lo3.gemporia.com/abrgemporiaukgfx/smil:livestream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="GODTV.uk@SD" tvg-name="GOD TV (396p)" group-title="22·英国频道" ,GOD TV (396p)
@@ -1559,7 +1537,9 @@ https://iranefardalive.com/stream/live.m3u8
 #EXTINF:-1 tvg-id="JewelleryMaker.uk" tvg-name="Jewellery Maker" tvg-logo="https://i.imgur.com/O7SdkBh.png" group-title="22·英国频道" ,Jewellery Maker
 https://lo3.gemporia.com/abrjewellerymaker/smil:livestreamFullHD.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="JimJamEurope.uk@SD" tvg-name="JimJam Europe" group-title="22·英国频道" ,JimJam Europe
-http://stream.mcquack.net/150/index.m3u8
+http://212.5.144.156:8080/jimjam/index.m3u8
+#EXTINF:-1 tvg-id="LatestTV.uk@SD" tvg-name="Latest TV" group-title="22·英国频道" ,Latest TV
+https://5a0e89631aa14.streamlock.net/live/LatestTelevision/playlist.m3u8
 #EXTINF:-1 tvg-id="MagnavisionTV.uk@SD" tvg-name="Magnavision TV" group-title="22·英国频道" ,Magnavision TV
 https://manatv.akamaized.net/120723/smil:magnavision.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="MasterChefsAcademyTV.uk@HD" tvg-name="Master Chefs Academy TV" group-title="22·英国频道" ,Master Chefs Academy TV
@@ -1567,7 +1547,7 @@ https://platform-iuoamc.uk/iptv/mca-tv/index.m3u8
 #EXTINF:-1 tvg-id="MiracleTV.uk@SD" tvg-name="Miracle TV" group-title="22·英国频道" ,Miracle TV
 https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_030/Stream/playlist.m3u8
 #EXTINF:-1 tvg-id="MoonbugKids.uk@SD" tvg-name="Moonbug Kids" group-title="22·英国频道" ,Moonbug Kids
-https://tvsen6.aynaott.com/MoonbugKids/index.m3u8
+https://mumbai-edge.smartplaytv.in/Moonbug/index.m3u8
 #EXTINF:-1 tvg-id="MrBeanLiveAction.uk@English" tvg-name="Mr Bean Live Action" group-title="22·英国频道" ,Mr Bean Live Action
 https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8
 #EXTINF:-1 tvg-id="MTA3AlArabia.uk@SD" tvg-name="MTA3 Al-Arabia" group-title="22·英国频道" ,MTA3 Al-Arabia
@@ -1583,8 +1563,6 @@ https://chlivemta.akamaized.net/hls/live/2016718/mta8/playlist.m3u8
 https://shift03.isp.bg/MTVEurope/index.m3u8
 #EXTINF:-1 tvg-id="MUTV.uk@SD" tvg-name="MUTV" group-title="22·英国频道" ,MUTV
 https://fastly.live.brightcove.com/6374054671112/eu-west-1/6058004203001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiYXplMnp5LmVncmVzcy55ODN1ZWIiLCJhY2NvdW50X2lkIjoiNjA1ODAwNDIwMzAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU4MDA0MjAzMDAxIl0sImp0aSI6IjYzNzQwNTQ2NzExMTIifQ.3FmuTna3DAmY7xlhK5fk6LMrosrtrR5VsU2QOgYO5y4/playlist-hls.m3u8
-#EXTINF:-1 tvg-id="Nickelodeon.uk@SD" tvg-name="Nickelodeon" group-title="22·英国频道" ,Nickelodeon
-http://tvsen7.aynascope.net/nicklodean/index.m3u8
 #EXTINF:-1 tvg-id="NoorTV.uk@SD" tvg-name="Noor TV" group-title="22·英国频道" ,Noor TV
 https://sscsott.com/srt/noortvuk/index.m3u8
 #EXTINF:-1 tvg-id="Now70s.uk" tvg-name="Now 70s" tvg-logo="https://i.imgur.com/qiCCX5X.png" group-title="22·英国频道" ,Now 70s
@@ -1597,6 +1575,8 @@ https://amg01076-amg01076c19-rakuten-gb-8653.playouts.now.amagi.tv/ts-eu-w1-n2/p
 https://lightning-now90s-samsungnz.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="PanjabTV.uk@SD" tvg-name="Panjab TV" group-title="22·英国频道" ,Panjab TV
 https://panjabtv.akamaized.net/panjabtv/panjabtvhlsout/playlist.m3u8
+#EXTINF:-1 tvg-id="PBSAmerica.uk@SD" tvg-name="PBS America" group-title="22·英国频道" ,PBS America
+http://185.19.191.2:8090/PBS/index.m3u8
 #EXTINF:-1 tvg-id="Pop.uk@SD" tvg-name="Pop" group-title="22·英国频道" ,Pop
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01753-narrativeentert-popkids-lggb/playlist.m3u8
 #EXTINF:-1 tvg-id="QVC.uk@SD" tvg-name="QVC UK" group-title="22·英国频道" ,QVC UK
@@ -1636,9 +1616,9 @@ https://live-tbn-ssai.simplestreamcdn.com/v1/master/774d979dd66704abea7c5b62cb34
 #EXTINF:-1 tvg-id="TheGrahamNortonShow.uk@SD" tvg-name="The Graham Norton Show" group-title="22·英国频道" ,The Graham Norton Show
 https://amg00654-itv-amg00654c35-rakuten-gb-7598.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TinyPop.uk@SD" tvg-name="Tiny Pop" group-title="22·英国频道" ,Tiny Pop
-https://amg01753-narrativeuk-amg01753c1-lg-gb-1830.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-tinypop-lggb/playlist.m3u8
+https://amg01753-narrativeuk-amg01753c1-rakuten-uk-2339.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg01753-narrativeuk-tinypop-rakutenuk/cb7d3e4f7b726f8c9999376cd9f547f3d1006681563ad7316cad5e9420c91853d7b9f7c0e74feb690dbd7ba33e40340d0136d41cc07c11dfa32bfb086a384837c293a20287dd4755a2a55e793acc190e39ee0f15ce24562999fb0c52d468e137555aa82e6b553982f25bad7752c5810a8a6f5fd2ef88376635455e9a5943e5b24aa0ade75a44df64a9ac14489c2f58e68314c8c915ee84dc469745d722f247999aa482db16888cab43f803f10b1a4c3078988d709dce62bfdee82f53d8227a431a04b5a696b3186ad6450e08fafbcef267f942cbc470d13064ec549e1fd136df3af071cd8e4fa4be84db475730a7c164753eb0e0d2ef915624b864a1ea83af72788ac913794af66ed730393d9cfcdf1b96b167fcc672d3e23c456f99c211cbc9e5d2b6e7df10e64fbac6f08b025242621d079462b59369cf21af1ec2aa42780e1d1ed8f03bc582ca613467598f835beb1f16ada9e8e9be5f61b80a715bec73e656047ec731780e81479b8f3736f54c7884312ec44a21967dffb722e1a2d5f13932b1aca1289b3ab8ed5288b668d16c384a3da1e63a60464373c4eb68190f75c24be3c6cbe6727b648695c8f09a125276381341338af2f74f889acf3b1829d4412a12187a7d8405dd7ccb05474e3adf44afc6667581151e29e3b1365e5f539bc9ba84f5bfa023b376c1cafb3637611909cb32013551d0b9834df8365f41795c940a634caf0e5f5198f3a381b0a14c9fc636c050631070fae007480d2035094ecdc23b840db1c745f4cd9d0f95a2d943118771fa07479b9d8a39febf8493185bc6fd064f3deab957c4773ef813d13d81d175e7bd5a0219303221a8e973da719cedb3e471e346c24e076dd57cbe8aeab0d3594fe290584155633146260526767dd2bdd4601344e9b231943b8c8f45bb4d50697b2db283044db9f87818a3216770a0d2bfe1dfda0f11d36be665c86706995a042af3c334e6d9c89997866b473fcca5ae5e84b59191c9a4a34c191d652392d550472d9d4c9e8d03f2921c6cffb689f0d46a9b709046d1f5b521e972b2cab71bba9593eaed39005b580d6ea39d8a15dfaf3542bf6bc9722e179299e1fa718967de6dc2887ed18b3e3dbe394f53f0f8eb03e92899c41b0fc9a4677fd25513e0c1de073de9058429035cd0ecb7363cece22ec76cbc94d5386daf1e19c5667f408d32c3a69e484ec09d322170cc2a49a55a87dbeb447a27ada651032108383f58e06c4f09e1075b9d4ba1c5e5b66301af20ab2c1e96708ee074838329c7d1f5d2fefc1d448ed63f37d02ec6289801e7f8a6da1a8672508b63b23b6583fef9dfe9cdee96eefc3f7817bf65b828df54bbef80b057272b58fb2d1a6b0add3ee22a0072b5e574eb866e45a7d9dc35e2277164093511ea3898b730696002a8c75cbcfe4369486b11c9e227963295642aa57e569f3b4e3b2e267b6083b1ec3ad920db5690c57821e2a4968307c68d1effae81cf9f6803e373076f69b894aea0f16032ddb5abb0044da0ca449431543e0aa0fb836618e3e42301d987ac559a9d528e39172b4ef3a98f13ee5ea313cb7e7efb1af0de6c4cecac3d151aa41eb7ec526087079970759616fd0d7eda126a534a39b87ac769146c5b8917e7f7ae5228019600d40f1246dadde98a983d5e1c01531119617d12db4832a26b4321f55761f99099c29f859e1d1131e35db3db838b4a498386a499875db2d787fce6b7011d1aad370a1ff20e409172cb1815d2b252bd78869297865f07ba8275a03f85e655767210e98b316b192c68938740c15624de0dffda8af0c46ac3cdf237306e7e770a42d36f866463460de97dbec4193cf4ff9e6b0ad08ff2a3e4cfb38553e2a0f2509a9a446ad5fab530f0ebb436f55d0655850b571607b9b0505b39cc20a9ebd7e94303a22e954d582dece7fd3bb1b7147e539661b460ab772f53856e0168710b8bc55d8adcc55a7a2515490cedd4638a5e08a5742301c093438adf8f06c10090c0afff406a1c7134f87436233582496c5105fcb9f2c31c3be406f02b65a6d9b99e1a54698a9b58959d3e748194b800c871ec75ef72ff2c461c7dc7777d719d3e240a2d7b2018a94921e59aa6ecb4348c2dfc7b4cc800a57d37ba92021b82df7d8e7d7d539fd21441af67a13fa6998850e6786ee58eebcc0a/27/1920x1080_5903040/index.m3u8
 #EXTINF:-1 tvg-id="TJC.uk@SD" tvg-name="TJC" group-title="22·英国频道" ,TJC
-https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel(HDTJCcustomGFX)/master.m3u8
+https://cdn-shop-lc-01.akamaized.net/Content/HLS_HLS/Live/channel(TJCOTT)/index.m3u8
 #EXTINF:-1 tvg-id="Totalmusic.uk@HD" tvg-name="Totalmusic" group-title="22·英国频道" ,Totalmusic
 https://cdn.global.elektamedia.com/live/c7eds/Totalmusic/SA_LIVE_hls_enc/master.m3u8
 #EXTINF:-1 tvg-id="Totalmusic2000s.uk@HD" tvg-name="Totalmusic 2000s" group-title="22·英国频道" ,Totalmusic 2000s
